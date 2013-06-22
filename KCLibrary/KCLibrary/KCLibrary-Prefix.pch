@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'KCLibrary' target in the 'KCLibrary' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
