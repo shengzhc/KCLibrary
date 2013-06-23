@@ -11,6 +11,26 @@
 @implementation NSArray (KCServices)
 
 
++ (NSArray *)array:(NSArray *)origin addingArray:(NSArray *)adding
+{
+    if (!origin && !adding)
+    {
+        return nil;
+    }
+    else if (!origin)
+    {
+        return [adding copy];
+    }
+    else if (!adding)
+    {
+        return [origin copy];
+    }
+    
+    NSMutableArray *array = [origin mutableCopy];
+    [array addObjectsFromArray:adding];
+    return array;
+}
+
 - (id)firstObject
 {
     if (self && self.count > 0)
@@ -20,7 +40,6 @@
     
     return nil;
 }
-
 
 - (id)lastObject
 {
@@ -32,6 +51,16 @@
     return nil;
 }
 
-
+- (NSArray *)arrayByAddingArray:(NSArray *)arr
+{
+    if (!arr)
+    {
+        return self;
+    }
+    
+    NSMutableArray *array = [self copy];
+    [array addObjectsFromArray:arr];
+    return array;
+}
 
 @end

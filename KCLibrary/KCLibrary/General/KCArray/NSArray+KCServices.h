@@ -10,7 +10,10 @@
 
 @interface NSArray (KCServices)
 
++ (NSArray *)array:(NSArray *)origin addingArray:(NSArray *)adding;
+
 - (id)firstObject;
 - (id)lastObject;
+- (NSArray *)arrayByAddingArray:(NSArray *)arr;
 
 @end
