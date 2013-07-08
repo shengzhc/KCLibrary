@@ -8,13 +8,13 @@
 
 #import "KCError.h"
 
-#define KCJSONErrorTypeArray @[ @"KCJSONErrorParse", @"KCJSONErrorIncorrectType"];
+#define KCJSONErrorTypeArray @[ @"KCJSONErrorParse", @"KCJSONErrorIncorrectType", @"KCJSONErrorKeyPath"];
 
 typedef enum
 {
     KCJSONErrorParse,
-    KCJSONErrorIncorrectType
-
+    KCJSONErrorIncorrectType,
+    KCJSONErrorKeyPath
 } KCJSONErrorType;
 
 @interface KCJSONError : KCError
