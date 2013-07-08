@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
-		E76BA1F8177653AF001EDCCA /* KCLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76BA1F7177653AF001EDCCA /* KCLibrary.h */; };
-		E76BA1FA177653AF001EDCCA /* KCLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA1F9177653AF001EDCCA /* KCLibrary.m */; };
+		E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA20B17765819001EDCCA /* NSArray+KCServices.m */; };
+		E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +19,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				E76BA1F8177653AF001EDCCA /* KCLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +28,11 @@
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
-		E76BA1F7177653AF001EDCCA /* KCLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLibrary.h; sourceTree = "<group>"; };
-		E76BA1F9177653AF001EDCCA /* KCLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLibrary.m; sourceTree = "<group>"; };
+		E76BA20A17765819001EDCCA /* NSArray+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KCServices.h"; sourceTree = "<group>"; };
+		E76BA20B17765819001EDCCA /* NSArray+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KCServices.m"; sourceTree = "<group>"; };
+		E76BA20D1776B784001EDCCA /* NSArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		E76BA20F1776BDA4001EDCCA /* KCBlockHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCBlockHandler.h; sourceTree = "<group>"; };
+		E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCBlockHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +75,7 @@
 		E76BA1F4177653AF001EDCCA /* KCLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				E76BA1F7177653AF001EDCCA /* KCLibrary.h */,
-				E76BA1F9177653AF001EDCCA /* KCLibrary.m */,
+				E76BA20517765604001EDCCA /* General */,
 				E76BA1F5177653AF001EDCCA /* Supporting Files */,
 			);
 			path = KCLibrary;
@@ -86,6 +87,34 @@
 				E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E76BA20517765604001EDCCA /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E76BA20E1776BD87001EDCCA /* KCBlockHandler */,
+				E76BA209177657B4001EDCCA /* KCArray */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		E76BA209177657B4001EDCCA /* KCArray */ = {
+			isa = PBXGroup;
+			children = (
+				E76BA20D1776B784001EDCCA /* NSArray+Extension.h */,
+				E76BA20A17765819001EDCCA /* NSArray+KCServices.h */,
+				E76BA20B17765819001EDCCA /* NSArray+KCServices.m */,
+			);
+			path = KCArray;
+			sourceTree = "<group>";
+		};
+		E76BA20E1776BD87001EDCCA /* KCBlockHandler */ = {
+			isa = PBXGroup;
+			children = (
+				E76BA20F1776BDA4001EDCCA /* KCBlockHandler.h */,
+				E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */,
+			);
+			path = KCBlockHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E76BA1FA177653AF001EDCCA /* KCLibrary.m in Sources */,
+				E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */,
+				E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +265,7 @@
 				E76BA1FF177653AF001EDCCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
