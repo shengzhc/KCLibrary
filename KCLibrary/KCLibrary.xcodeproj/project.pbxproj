@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E73843E21789E24800E8EA7A /* KCError.m in Sources */ = {isa = PBXBuildFile; fileRef = E73843E11789E24800E8EA7A /* KCError.m */; };
+		E73843E51789F40D00E8EA7A /* KCJSONError.m in Sources */ = {isa = PBXBuildFile; fileRef = E73843E41789F40D00E8EA7A /* KCJSONError.m */; };
+		E7384460178A036900E8EA7A /* KCError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73843E01789E24800E8EA7A /* KCError.h */; };
+		E7384461178A036900E8EA7A /* KCJSONError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73843E31789F40D00E8EA7A /* KCJSONError.h */; };
+		E7384462178A036900E8EA7A /* KCBlockHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76BA20F1776BDA4001EDCCA /* KCBlockHandler.h */; };
+		E7384463178A036900E8EA7A /* NSArray+Extension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76BA20D1776B784001EDCCA /* NSArray+Extension.h */; };
+		E7384464178A036900E8EA7A /* NSArray+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76BA20A17765819001EDCCA /* NSArray+KCServices.h */; };
+		E73844CB178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844CA178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m */; };
+		E73844CE178A559400E8EA7A /* NSArray+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844CD178A559300E8EA7A /* NSArray+KCJSONSerialization.m */; };
+		E73844D1178A579000E8EA7A /* NSDictionary+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844D0178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.m */; };
+		E73844D4178A5AC100E8EA7A /* NSData+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844D3178A5AC100E8EA7A /* NSData+KCJSONSerialization.m */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA20B17765819001EDCCA /* NSArray+KCServices.m */; };
 		E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */; };
@@ -15,16 +26,33 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		E76BA1ED177653AF001EDCCA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				E7384460178A036900E8EA7A /* KCError.h in CopyFiles */,
+				E7384461178A036900E8EA7A /* KCJSONError.h in CopyFiles */,
+				E7384462178A036900E8EA7A /* KCBlockHandler.h in CopyFiles */,
+				E7384463178A036900E8EA7A /* NSArray+Extension.h in CopyFiles */,
+				E7384464178A036900E8EA7A /* NSArray+KCServices.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E73843E01789E24800E8EA7A /* KCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCError.h; sourceTree = "<group>"; };
+		E73843E11789E24800E8EA7A /* KCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCError.m; sourceTree = "<group>"; };
+		E73843E31789F40D00E8EA7A /* KCJSONError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJSONError.h; sourceTree = "<group>"; };
+		E73843E41789F40D00E8EA7A /* KCJSONError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCJSONError.m; sourceTree = "<group>"; };
+		E73844C9178A4E8A00E8EA7A /* NSString+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KCJSONSerialization.h"; sourceTree = "<group>"; };
+		E73844CA178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KCJSONSerialization.m"; sourceTree = "<group>"; };
+		E73844CC178A559300E8EA7A /* NSArray+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KCJSONSerialization.h"; sourceTree = "<group>"; };
+		E73844CD178A559300E8EA7A /* NSArray+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KCJSONSerialization.m"; sourceTree = "<group>"; };
+		E73844CF178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KCJSONSerialization.h"; sourceTree = "<group>"; };
+		E73844D0178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KCJSONSerialization.m"; sourceTree = "<group>"; };
+		E73844D2178A5AC000E8EA7A /* NSData+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KCJSONSerialization.h"; sourceTree = "<group>"; };
+		E73844D3178A5AC100E8EA7A /* NSData+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+KCJSONSerialization.m"; sourceTree = "<group>"; };
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -47,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E73843DE1789E23600E8EA7A /* KCError */ = {
+			isa = PBXGroup;
+			children = (
+				E73843E01789E24800E8EA7A /* KCError.h */,
+				E73843E11789E24800E8EA7A /* KCError.m */,
+			);
+			path = KCError;
+			sourceTree = "<group>";
+		};
 		E76BA1E4177653AF001EDCCA = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +129,8 @@
 		E76BA20517765604001EDCCA /* General */ = {
 			isa = PBXGroup;
 			children = (
+				E73843DE1789E23600E8EA7A /* KCError */,
+				E772EA761789DD3900C164EF /* KCJSON */,
 				E76BA20E1776BD87001EDCCA /* KCBlockHandler */,
 				E76BA209177657B4001EDCCA /* KCArray */,
 			);
@@ -115,6 +154,24 @@
 				E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */,
 			);
 			path = KCBlockHandler;
+			sourceTree = "<group>";
+		};
+		E772EA761789DD3900C164EF /* KCJSON */ = {
+			isa = PBXGroup;
+			children = (
+				E73843E31789F40D00E8EA7A /* KCJSONError.h */,
+				E73843E41789F40D00E8EA7A /* KCJSONError.m */,
+				E73844C9178A4E8A00E8EA7A /* NSString+KCJSONSerialization.h */,
+				E73844CA178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m */,
+				E73844CC178A559300E8EA7A /* NSArray+KCJSONSerialization.h */,
+				E73844CD178A559300E8EA7A /* NSArray+KCJSONSerialization.m */,
+				E73844CF178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.h */,
+				E73844D0178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.m */,
+				E73844D2178A5AC000E8EA7A /* NSData+KCJSONSerialization.h */,
+				E73844D3178A5AC100E8EA7A /* NSData+KCJSONSerialization.m */,
+			);
+			name = KCJSON;
+			path = KCJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +227,12 @@
 			files = (
 				E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */,
 				E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */,
+				E73843E21789E24800E8EA7A /* KCError.m in Sources */,
+				E73843E51789F40D00E8EA7A /* KCJSONError.m in Sources */,
+				E73844CB178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m in Sources */,
+				E73844CE178A559400E8EA7A /* NSArray+KCJSONSerialization.m in Sources */,
+				E73844D1178A579000E8EA7A /* NSDictionary+KCJSONSerialization.m in Sources */,
+				E73844D4178A5AC100E8EA7A /* NSData+KCJSONSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

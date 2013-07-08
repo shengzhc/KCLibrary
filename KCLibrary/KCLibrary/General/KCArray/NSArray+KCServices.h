@@ -16,4 +16,9 @@
 - (id)lastObject;
 - (NSArray *)arrayByAddingArray:(NSArray *)arr;
 
+
+// Enum Mapping
+- (NSString *)stringWithEnum:(NSUInteger)enumerator;
+- (NSUInteger)enumFrmoString:(NSString *)string;
+
 @end

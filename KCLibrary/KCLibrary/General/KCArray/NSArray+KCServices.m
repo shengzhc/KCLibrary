@@ -63,4 +63,20 @@
     return array;
 }
 
+- (NSString *)stringWithEnum:(NSUInteger)enumerator
+{
+    return [self objectAtIndex:enumerator];
+}
+
+- (NSUInteger)enumFrmoString:(NSString *)string
+{
+    NSUInteger enumIndex = [self indexOfObject:string];
+    if (enumIndex == NSNotFound)
+    {
+        return 0;
+    }
+    
+    return enumIndex;
+}
+
 @end
