@@ -96,6 +96,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2BFE5F6178B636300BDA319 /* KCHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFE5F7178B636300BDA319 /* KCURLConnection */,
+			);
+			path = KCHTTP;
+			sourceTree = "<group>";
+		};
+		D2BFE5F7178B636300BDA319 /* KCURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KCURLConnection;
+			sourceTree = "<group>";
+		};
 		E73843DE1789E23600E8EA7A /* KCError */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +165,7 @@
 		E76BA20517765604001EDCCA /* General */ = {
 			isa = PBXGroup;
 			children = (
+				D2BFE5F6178B636300BDA319 /* KCHTTP */,
 				E73843DE1789E23600E8EA7A /* KCError */,
 				E772EA761789DD3900C164EF /* KCJSON */,
 				E76BA20E1776BD87001EDCCA /* KCBlockHandler */,
