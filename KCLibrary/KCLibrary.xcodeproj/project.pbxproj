@@ -150,6 +150,7 @@
 		E76BA20517765604001EDCCA /* General */ = {
 			isa = PBXGroup;
 			children = (
+				E76D120E178BC1E300A4469B /* KCHTTP */,
 				E73843DE1789E23600E8EA7A /* KCError */,
 				E772EA761789DD3900C164EF /* KCJSON */,
 				E76BA20E1776BD87001EDCCA /* KCBlockHandler */,
@@ -175,6 +176,21 @@
 				E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */,
 			);
 			path = KCBlockHandler;
+			sourceTree = "<group>";
+		};
+		E76D120E178BC1E300A4469B /* KCHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				E76D120F178BC1E300A4469B /* KCURLConnection */,
+			);
+			path = KCHTTP;
+			sourceTree = "<group>";
+		};
+		E76D120F178BC1E300A4469B /* KCURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KCURLConnection;
 			sourceTree = "<group>";
 		};
 		E772EA761789DD3900C164EF /* KCJSON */ = {
