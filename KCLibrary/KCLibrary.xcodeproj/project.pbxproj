@@ -30,6 +30,10 @@
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA20B17765819001EDCCA /* NSArray+KCServices.m */; };
 		E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */; };
+		E76D1213178BC26A00A4469B /* KCURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E76D1212178BC26A00A4469B /* KCURLConnection.m */; };
+		E76D1218178BC41100A4469B /* KCURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E76D1217178BC41100A4469B /* KCURLConnectionDelegate.m */; };
+		E76D121B178BCAB200A4469B /* KCMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E76D121A178BCAB200A4469B /* KCMutableURLRequest.m */; };
+		E76D1221178BD7DB00A4469B /* KCHTTPError.m in Sources */ = {isa = PBXBuildFile; fileRef = E76D1220178BD7DB00A4469B /* KCHTTPError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +86,15 @@
 		E76BA20D1776B784001EDCCA /* NSArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
 		E76BA20F1776BDA4001EDCCA /* KCBlockHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCBlockHandler.h; sourceTree = "<group>"; };
 		E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCBlockHandler.m; sourceTree = "<group>"; };
+		E76D1211178BC26A00A4469B /* KCURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnection.h; sourceTree = "<group>"; };
+		E76D1212178BC26A00A4469B /* KCURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnection.m; sourceTree = "<group>"; };
+		E76D1216178BC41100A4469B /* KCURLConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectionDelegate.h; sourceTree = "<group>"; };
+		E76D1217178BC41100A4469B /* KCURLConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectionDelegate.m; sourceTree = "<group>"; };
+		E76D1219178BCAB200A4469B /* KCMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMutableURLRequest.h; sourceTree = "<group>"; };
+		E76D121A178BCAB200A4469B /* KCMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMutableURLRequest.m; sourceTree = "<group>"; };
+		E76D121D178BD59C00A4469B /* KCLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLog.h; sourceTree = "<group>"; };
+		E76D121F178BD7DB00A4469B /* KCHTTPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPError.h; sourceTree = "<group>"; };
+		E76D1220178BD7DB00A4469B /* KCHTTPError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +163,7 @@
 		E76BA20517765604001EDCCA /* General */ = {
 			isa = PBXGroup;
 			children = (
+				E76D121C178BD57C00A4469B /* KCGlobal */,
 				E76D120E178BC1E300A4469B /* KCHTTP */,
 				E73843DE1789E23600E8EA7A /* KCError */,
 				E772EA761789DD3900C164EF /* KCJSON */,
@@ -181,6 +195,9 @@
 		E76D120E178BC1E300A4469B /* KCHTTP */ = {
 			isa = PBXGroup;
 			children = (
+				E76D121E178BD7C500A4469B /* KCHTTPError */,
+				E76D1214178BC40000A4469B /* KCMutableURLRequest */,
+				E76D1215178BC40000A4469B /* KCURLConnectionDelegate */,
 				E76D120F178BC1E300A4469B /* KCURLConnection */,
 			);
 			path = KCHTTP;
@@ -189,8 +206,45 @@
 		E76D120F178BC1E300A4469B /* KCURLConnection */ = {
 			isa = PBXGroup;
 			children = (
+				E76D1211178BC26A00A4469B /* KCURLConnection.h */,
+				E76D1212178BC26A00A4469B /* KCURLConnection.m */,
 			);
 			path = KCURLConnection;
+			sourceTree = "<group>";
+		};
+		E76D1214178BC40000A4469B /* KCMutableURLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E76D1219178BCAB200A4469B /* KCMutableURLRequest.h */,
+				E76D121A178BCAB200A4469B /* KCMutableURLRequest.m */,
+			);
+			path = KCMutableURLRequest;
+			sourceTree = "<group>";
+		};
+		E76D1215178BC40000A4469B /* KCURLConnectionDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E76D1216178BC41100A4469B /* KCURLConnectionDelegate.h */,
+				E76D1217178BC41100A4469B /* KCURLConnectionDelegate.m */,
+			);
+			path = KCURLConnectionDelegate;
+			sourceTree = "<group>";
+		};
+		E76D121C178BD57C00A4469B /* KCGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				E76D121D178BD59C00A4469B /* KCLog.h */,
+			);
+			path = KCGlobal;
+			sourceTree = "<group>";
+		};
+		E76D121E178BD7C500A4469B /* KCHTTPError */ = {
+			isa = PBXGroup;
+			children = (
+				E76D121F178BD7DB00A4469B /* KCHTTPError.h */,
+				E76D1220178BD7DB00A4469B /* KCHTTPError.m */,
+			);
+			path = KCHTTPError;
 			sourceTree = "<group>";
 		};
 		E772EA761789DD3900C164EF /* KCJSON */ = {
@@ -277,6 +331,10 @@
 				E73844D4178A5AC100E8EA7A /* NSData+KCJSONSerialization.m in Sources */,
 				E73844E4178A614100E8EA7A /* NSObject+KCJSONSerialization.m in Sources */,
 				E73844E8178A62B900E8EA7A /* NSDictionary+KCParseJSON.m in Sources */,
+				E76D1213178BC26A00A4469B /* KCURLConnection.m in Sources */,
+				E76D1218178BC41100A4469B /* KCURLConnectionDelegate.m in Sources */,
+				E76D121B178BCAB200A4469B /* KCMutableURLRequest.m in Sources */,
+				E76D1221178BD7DB00A4469B /* KCHTTPError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
