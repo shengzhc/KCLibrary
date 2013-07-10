@@ -25,5 +25,31 @@
          startingLineNumber = "13"
          endingLineNumber = "13">
       </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "KCLibrary/KCLibrary/General/KCHTTP/KCURLConnection/KCURLConnection.m"
+         timestampString = "395119538.951787"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "45"
+         endingLineNumber = "45"
+         landmarkName = "-start"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "KCLibrary/KCLibrary/General/KCHTTP/KCURLConnectionDelegate/KCURLConnectionDelegate.m"
+         timestampString = "395127239.055667"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "25"
+         endingLineNumber = "25"
+         landmarkName = "@implementation KCURLConnectionDelegate"
+         landmarkType = "3">
+      </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

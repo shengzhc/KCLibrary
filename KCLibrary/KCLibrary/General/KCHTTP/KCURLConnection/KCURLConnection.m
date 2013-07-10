@@ -9,6 +9,7 @@
 #import "KCURLConnection.h"
 #import "KCMutableURLRequest.h"
 #import "KCURLConnectionDelegate.h"
+#import "KCURLConnectionThreadManager.h"
 
 #import "KCLog.h"
 
@@ -33,6 +34,9 @@
         self.requestURL = [[request URL] description];
         self.requestMethod = [request HTTPMethod];
         self.delegate = delegate;
+    
+        [self.delegate.URLConnectionThreadManager
+         scheduleDelegateMessagesForURLConnection:self];
     }
     
     return self;
@@ -44,6 +48,7 @@
     
     KCDebugLog(@"%@", [NSString stringWithFormat:@"Starting %@ request: %@", self.requestMethod, self.requestURL]);
     
+    [self.delegate startTimer];
 }
 
 + (NSTimeInterval)tenSeconds

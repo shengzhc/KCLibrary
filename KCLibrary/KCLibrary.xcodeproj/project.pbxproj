@@ -27,6 +27,11 @@
 		E73844EE178A761100E8EA7A /* NSObject+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E2178A614100E8EA7A /* NSObject+KCJSONSerialization.h */; };
 		E73844EF178A761100E8EA7A /* NSDictionary+KCParseJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E6178A62B800E8EA7A /* NSDictionary+KCParseJSON.h */; };
 		E73844F0178A761100E8EA7A /* KCJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E9178A757F00E8EA7A /* KCJSON.h */; };
+		E73E354C178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */; };
+		E73E3550178D144D0079DEFB /* KCErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E354F178D144D0079DEFB /* KCErrorResponse.m */; };
+		E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */; };
+		E73E3557178D23420079DEFB /* KCURLConnectiontimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */; };
+		E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA20B17765819001EDCCA /* NSArray+KCServices.m */; };
 		E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */; };
@@ -78,6 +83,16 @@
 		E73844E6178A62B800E8EA7A /* NSDictionary+KCParseJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KCParseJSON.h"; sourceTree = "<group>"; };
 		E73844E7178A62B900E8EA7A /* NSDictionary+KCParseJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KCParseJSON.m"; sourceTree = "<group>"; };
 		E73844E9178A757F00E8EA7A /* KCJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCJSON.h; sourceTree = "<group>"; };
+		E73E354A178D0D6A0079DEFB /* KCHTTPURLResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPURLResponseHandler.h; sourceTree = "<group>"; };
+		E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPURLResponseHandler.m; sourceTree = "<group>"; };
+		E73E354E178D144D0079DEFB /* KCErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCErrorResponse.h; sourceTree = "<group>"; };
+		E73E354F178D144D0079DEFB /* KCErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCErrorResponse.m; sourceTree = "<group>"; };
+		E73E3551178D15BE0079DEFB /* KCHTTPURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPURLResponse.h; sourceTree = "<group>"; };
+		E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPURLResponse.m; sourceTree = "<group>"; };
+		E73E3555178D23420079DEFB /* KCURLConnectiontimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectiontimerManager.h; sourceTree = "<group>"; };
+		E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectiontimerManager.m; sourceTree = "<group>"; };
+		E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectionThreadManager.h; sourceTree = "<group>"; };
+		E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectionThreadManager.m; sourceTree = "<group>"; };
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -109,21 +124,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2BFE5F6178B636300BDA319 /* KCHTTP */ = {
-			isa = PBXGroup;
-			children = (
-				D2BFE5F7178B636300BDA319 /* KCURLConnection */,
-			);
-			path = KCHTTP;
-			sourceTree = "<group>";
-		};
-		D2BFE5F7178B636300BDA319 /* KCURLConnection */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = KCURLConnection;
-			sourceTree = "<group>";
-		};
 		E73843DE1789E23600E8EA7A /* KCError */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +131,51 @@
 				E73843E11789E24800E8EA7A /* KCError.m */,
 			);
 			path = KCError;
+			sourceTree = "<group>";
+		};
+		E73E3548178D0D330079DEFB /* KCHTTPURLResponse */ = {
+			isa = PBXGroup;
+			children = (
+				E73E3551178D15BE0079DEFB /* KCHTTPURLResponse.h */,
+				E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */,
+			);
+			path = KCHTTPURLResponse;
+			sourceTree = "<group>";
+		};
+		E73E3549178D0D330079DEFB /* KCHTTPURLResponseHandler */ = {
+			isa = PBXGroup;
+			children = (
+				E73E354A178D0D6A0079DEFB /* KCHTTPURLResponseHandler.h */,
+				E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */,
+			);
+			path = KCHTTPURLResponseHandler;
+			sourceTree = "<group>";
+		};
+		E73E354D178D14370079DEFB /* KCErrorResponse */ = {
+			isa = PBXGroup;
+			children = (
+				E73E354E178D144D0079DEFB /* KCErrorResponse.h */,
+				E73E354F178D144D0079DEFB /* KCErrorResponse.m */,
+			);
+			path = KCErrorResponse;
+			sourceTree = "<group>";
+		};
+		E73E3554178D23280079DEFB /* KCURLConnectionTimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				E73E3555178D23420079DEFB /* KCURLConnectiontimerManager.h */,
+				E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */,
+			);
+			path = KCURLConnectionTimerManager;
+			sourceTree = "<group>";
+		};
+		E73E3558178D25750079DEFB /* KCURLConnectionThreadManager */ = {
+			isa = PBXGroup;
+			children = (
+				E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */,
+				E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */,
+			);
+			path = KCURLConnectionThreadManager;
 			sourceTree = "<group>";
 		};
 		E76BA1E4177653AF001EDCCA = {
@@ -178,10 +223,9 @@
 		E76BA20517765604001EDCCA /* General */ = {
 			isa = PBXGroup;
 			children = (
+				E73E354D178D14370079DEFB /* KCErrorResponse */,
 				E76D121C178BD57C00A4469B /* KCGlobal */,
 				E76D120E178BC1E300A4469B /* KCHTTP */,
-=======
-				D2BFE5F6178B636300BDA319 /* KCHTTP */,
 				E73843DE1789E23600E8EA7A /* KCError */,
 				E772EA761789DD3900C164EF /* KCJSON */,
 				E76BA20E1776BD87001EDCCA /* KCBlockHandler */,
@@ -212,6 +256,10 @@
 		E76D120E178BC1E300A4469B /* KCHTTP */ = {
 			isa = PBXGroup;
 			children = (
+				E73E3558178D25750079DEFB /* KCURLConnectionThreadManager */,
+				E73E3554178D23280079DEFB /* KCURLConnectionTimerManager */,
+				E73E3548178D0D330079DEFB /* KCHTTPURLResponse */,
+				E73E3549178D0D330079DEFB /* KCHTTPURLResponseHandler */,
 				E76D121E178BD7C500A4469B /* KCHTTPError */,
 				E76D1214178BC40000A4469B /* KCMutableURLRequest */,
 				E76D1215178BC40000A4469B /* KCURLConnectionDelegate */,
@@ -352,6 +400,11 @@
 				E76D1218178BC41100A4469B /* KCURLConnectionDelegate.m in Sources */,
 				E76D121B178BCAB200A4469B /* KCMutableURLRequest.m in Sources */,
 				E76D1221178BD7DB00A4469B /* KCHTTPError.m in Sources */,
+				E73E354C178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m in Sources */,
+				E73E3550178D144D0079DEFB /* KCErrorResponse.m in Sources */,
+				E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */,
+				E73E3557178D23420079DEFB /* KCURLConnectiontimerManager.m in Sources */,
+				E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

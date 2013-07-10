@@ -11,7 +11,7 @@
 
 #ifdef DEBUG
 
-#define KPDebugLog(fmt, ...) NSLog((@"%s [Line %d]\n" fmt @"\n\n\n"), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define KCDebugLog(fmt, ...) NSLog((@"%s [Line %d]\n" fmt @"\n\n\n"), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
 
 #else
 
@@ -19,6 +19,6 @@
 
 #endif
 
-#define KPLog(fmt, ...) NSLog((@"%s [Line %d]" fmt @"\n\n\n"), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define KCLog(fmt, ...) NSLog((@"%s [Line %d]" fmt @"\n\n\n"), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
 
 #endif
