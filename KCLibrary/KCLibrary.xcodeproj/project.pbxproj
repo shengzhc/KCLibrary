@@ -32,7 +32,8 @@
 		E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */; };
 		E73E3557178D23420079DEFB /* KCURLConnectiontimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */; };
 		E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */; };
-		E74F5023178FC228006A5680 /* KCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E74F5022178FC228006A5680 /* KCGeometry.m */; };
+		E768624617910BB000A7F221 /* KCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624517910BB000A7F221 /* KCGeometry.m */; };
+		E768624917910C5600A7F221 /* UIView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624817910C5600A7F221 /* UIView+KCServices.m */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA20B17765819001EDCCA /* NSArray+KCServices.m */; };
 		E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */; };
@@ -94,8 +95,10 @@
 		E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectiontimerManager.m; sourceTree = "<group>"; };
 		E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectionThreadManager.h; sourceTree = "<group>"; };
 		E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectionThreadManager.m; sourceTree = "<group>"; };
-		E74F5021178FC228006A5680 /* KCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGeometry.h; sourceTree = "<group>"; };
-		E74F5022178FC228006A5680 /* KCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeometry.m; sourceTree = "<group>"; };
+		E768624417910BB000A7F221 /* KCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGeometry.h; sourceTree = "<group>"; };
+		E768624517910BB000A7F221 /* KCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeometry.m; sourceTree = "<group>"; };
+		E768624717910C5600A7F221 /* UIView+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCServices.h"; sourceTree = "<group>"; };
+		E768624817910C5600A7F221 /* UIView+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCServices.m"; sourceTree = "<group>"; };
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -181,21 +184,23 @@
 			path = KCURLConnectionThreadManager;
 			sourceTree = "<group>";
 		};
-		E74F5006178FC0B7006A5680 /* KCView */ = {
+		E768623E17910B7A00A7F221 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E74F5020178FC19D006A5680 /* General */,
+				E768623F17910B7A00A7F221 /* KCView */,
 			);
-			path = KCView;
+			path = View;
 			sourceTree = "<group>";
 		};
-		E74F5020178FC19D006A5680 /* General */ = {
+		E768623F17910B7A00A7F221 /* KCView */ = {
 			isa = PBXGroup;
 			children = (
-				E74F5021178FC228006A5680 /* KCGeometry.h */,
-				E74F5022178FC228006A5680 /* KCGeometry.m */,
+				E768624417910BB000A7F221 /* KCGeometry.h */,
+				E768624517910BB000A7F221 /* KCGeometry.m */,
+				E768624717910C5600A7F221 /* UIView+KCServices.h */,
+				E768624817910C5600A7F221 /* UIView+KCServices.m */,
 			);
-			path = General;
+			path = KCView;
 			sourceTree = "<group>";
 		};
 		E76BA1E4177653AF001EDCCA = {
@@ -243,7 +248,7 @@
 		E76BA20517765604001EDCCA /* General */ = {
 			isa = PBXGroup;
 			children = (
-				E74F5006178FC0B7006A5680 /* KCView */,
+				E768623E17910B7A00A7F221 /* View */,
 				E73E354D178D14370079DEFB /* KCErrorResponse */,
 				E76D121C178BD57C00A4469B /* KCGlobal */,
 				E76D120E178BC1E300A4469B /* KCHTTP */,
@@ -426,7 +431,8 @@
 				E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */,
 				E73E3557178D23420079DEFB /* KCURLConnectiontimerManager.m in Sources */,
 				E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */,
-				E74F5023178FC228006A5680 /* KCGeometry.m in Sources */,
+				E768624617910BB000A7F221 /* KCGeometry.m in Sources */,
+				E768624917910C5600A7F221 /* UIView+KCServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
