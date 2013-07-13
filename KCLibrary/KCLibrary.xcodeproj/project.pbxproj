@@ -34,6 +34,9 @@
 		E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */; };
 		E768624617910BB000A7F221 /* KCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624517910BB000A7F221 /* KCGeometry.m */; };
 		E768624917910C5600A7F221 /* UIView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624817910C5600A7F221 /* UIView+KCServices.m */; };
+		E768624C1791154400A7F221 /* UIView+QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624B1791154400A7F221 /* UIView+QuartzCore.m */; };
+		E768624F17911C0B00A7F221 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624E17911C0B00A7F221 /* UIView+Gesture.m */; };
+		E76862521791206400A7F221 /* UIView+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = E76862511791206400A7F221 /* UIView+Transition.m */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA20B17765819001EDCCA /* NSArray+KCServices.m */; };
 		E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */; };
@@ -99,6 +102,12 @@
 		E768624517910BB000A7F221 /* KCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeometry.m; sourceTree = "<group>"; };
 		E768624717910C5600A7F221 /* UIView+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCServices.h"; sourceTree = "<group>"; };
 		E768624817910C5600A7F221 /* UIView+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCServices.m"; sourceTree = "<group>"; };
+		E768624A1791154400A7F221 /* UIView+QuartzCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuartzCore.h"; sourceTree = "<group>"; };
+		E768624B1791154400A7F221 /* UIView+QuartzCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuartzCore.m"; sourceTree = "<group>"; };
+		E768624D17911C0B00A7F221 /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
+		E768624E17911C0B00A7F221 /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
+		E76862501791206400A7F221 /* UIView+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Transition.h"; sourceTree = "<group>"; };
+		E76862511791206400A7F221 /* UIView+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Transition.m"; sourceTree = "<group>"; };
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -199,6 +208,12 @@
 				E768624517910BB000A7F221 /* KCGeometry.m */,
 				E768624717910C5600A7F221 /* UIView+KCServices.h */,
 				E768624817910C5600A7F221 /* UIView+KCServices.m */,
+				E768624A1791154400A7F221 /* UIView+QuartzCore.h */,
+				E768624B1791154400A7F221 /* UIView+QuartzCore.m */,
+				E768624D17911C0B00A7F221 /* UIView+Gesture.h */,
+				E768624E17911C0B00A7F221 /* UIView+Gesture.m */,
+				E76862501791206400A7F221 /* UIView+Transition.h */,
+				E76862511791206400A7F221 /* UIView+Transition.m */,
 			);
 			path = KCView;
 			sourceTree = "<group>";
@@ -433,6 +448,9 @@
 				E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */,
 				E768624617910BB000A7F221 /* KCGeometry.m in Sources */,
 				E768624917910C5600A7F221 /* UIView+KCServices.m in Sources */,
+				E768624C1791154400A7F221 /* UIView+QuartzCore.m in Sources */,
+				E768624F17911C0B00A7F221 /* UIView+Gesture.m in Sources */,
+				E76862521791206400A7F221 /* UIView+Transition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
