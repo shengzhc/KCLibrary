@@ -53,6 +53,8 @@
 		E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */; };
 		E73E3557178D23420079DEFB /* KCURLConnectiontimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */; };
 		E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */; };
+		E74FDFFD179320F800085CF8 /* UILabel+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FDFFC179320F800085CF8 /* UILabel+KCServices.m */; };
+		E74FDFFE17932BFB00085CF8 /* UILabel+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74FDFFB179320F800085CF8 /* UILabel+KCServices.h */; };
 		E768624617910BB000A7F221 /* KCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624517910BB000A7F221 /* KCGeometry.m */; };
 		E768624917910C5600A7F221 /* UIView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624817910C5600A7F221 /* UIView+KCServices.m */; };
 		E768624C1791154400A7F221 /* UIView+QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624B1791154400A7F221 /* UIView+QuartzCore.m */; };
@@ -74,6 +76,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				E74FDFFE17932BFB00085CF8 /* UILabel+KCServices.h in CopyFiles */,
 				E73A029417927F1F00DF1285 /* KCGeometry.h in CopyFiles */,
 				E73A029517927F1F00DF1285 /* UIView+KCServices.h in CopyFiles */,
 				E73A029617927F1F00DF1285 /* UIView+QuartzCore.h in CopyFiles */,
@@ -142,6 +145,8 @@
 		E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectiontimerManager.m; sourceTree = "<group>"; };
 		E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectionThreadManager.h; sourceTree = "<group>"; };
 		E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectionThreadManager.m; sourceTree = "<group>"; };
+		E74FDFFB179320F800085CF8 /* UILabel+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KCServices.h"; sourceTree = "<group>"; };
+		E74FDFFC179320F800085CF8 /* UILabel+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KCServices.m"; sourceTree = "<group>"; };
 		E768624417910BB000A7F221 /* KCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGeometry.h; sourceTree = "<group>"; };
 		E768624517910BB000A7F221 /* KCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeometry.m; sourceTree = "<group>"; };
 		E768624717910C5600A7F221 /* UIView+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCServices.h"; sourceTree = "<group>"; };
@@ -257,9 +262,19 @@
 			path = KCURLConnectionThreadManager;
 			sourceTree = "<group>";
 		};
+		E74FDFFA179320E500085CF8 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				E74FDFFB179320F800085CF8 /* UILabel+KCServices.h */,
+				E74FDFFC179320F800085CF8 /* UILabel+KCServices.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
 		E768623E17910B7A00A7F221 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E74FDFFA179320E500085CF8 /* Label */,
 				E768623F17910B7A00A7F221 /* KCView */,
 			);
 			path = View;
@@ -521,6 +536,7 @@
 				E76862521791206400A7F221 /* UIView+Transition.m in Sources */,
 				E73A0288179273AA00DF1285 /* KCLocationManager.m in Sources */,
 				E73A028C1792790000DF1285 /* NSDate+KCServices.m in Sources */,
+				E74FDFFD179320F800085CF8 /* UILabel+KCServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
