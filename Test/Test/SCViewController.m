@@ -8,6 +8,7 @@
 
 #import "SCViewController.h"
 #import "KCJSONError.h"
+#import "NSDate+KCServices.h"
 
 @interface SCViewController ()
 
@@ -19,11 +20,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSArray *errors = [KCJSONError errorArray];
-    for (NSString *e in errors)
-    {
-        NSLog(@"%@", e);
-    }
+    
+//    
+    NSLog(@"%@", [NSDate currentDateString]);
+    NSLog(@"%@", [NSDate currentTimestamp]);
+    NSLog(@"%i", [NSDate currentYear]);
+
 }
 
 - (void)didReceiveMemoryWarning

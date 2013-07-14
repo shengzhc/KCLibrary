@@ -29,6 +29,25 @@
 		E73844F0178A761100E8EA7A /* KCJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E9178A757F00E8EA7A /* KCJSON.h */; };
 		E73A0288179273AA00DF1285 /* KCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A0287179273AA00DF1285 /* KCLocationManager.m */; };
 		E73A028C1792790000DF1285 /* NSDate+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A028B1792790000DF1285 /* NSDate+KCServices.m */; };
+		E73A028D17927F0B00DF1285 /* NSDate+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73A028A1792790000DF1285 /* NSDate+KCServices.h */; };
+		E73A028E17927F0B00DF1285 /* KCLocationManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73A0286179273AA00DF1285 /* KCLocationManager.h */; };
+		E73A028F17927F0B00DF1285 /* KCErrorResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E354E178D144D0079DEFB /* KCErrorResponse.h */; };
+		E73A029017927F0B00DF1285 /* KCHTTPURLResponseHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E354A178D0D6A0079DEFB /* KCHTTPURLResponseHandler.h */; };
+		E73A029117927F0B00DF1285 /* KCHTTPError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D121F178BD7DB00A4469B /* KCHTTPError.h */; };
+		E73A029217927F0B00DF1285 /* KCMutableURLRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D1219178BCAB200A4469B /* KCMutableURLRequest.h */; };
+		E73A029317927F0B00DF1285 /* KCURLConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D1211178BC26A00A4469B /* KCURLConnection.h */; };
+		E73A029417927F1F00DF1285 /* KCGeometry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E768624417910BB000A7F221 /* KCGeometry.h */; };
+		E73A029517927F1F00DF1285 /* UIView+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E768624717910C5600A7F221 /* UIView+KCServices.h */; };
+		E73A029617927F1F00DF1285 /* UIView+QuartzCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E768624A1791154400A7F221 /* UIView+QuartzCore.h */; };
+		E73A029717927F1F00DF1285 /* UIView+Gesture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E768624D17911C0B00A7F221 /* UIView+Gesture.h */; };
+		E73A029817927F1F00DF1285 /* UIView+Transition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76862501791206400A7F221 /* UIView+Transition.h */; };
+		E73A029917927F1F00DF1285 /* KCLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D121D178BD59C00A4469B /* KCLog.h */; };
+		E73A029A17927F1F00DF1285 /* KCURLConnectionThreadManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */; };
+		E73A029B17927F1F00DF1285 /* KCURLConnectiontimerManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E3555178D23420079DEFB /* KCURLConnectiontimerManager.h */; };
+		E73A029C17927F1F00DF1285 /* KCHTTPURLResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E3551178D15BE0079DEFB /* KCHTTPURLResponse.h */; };
+		E73A029D17927F1F00DF1285 /* KCURLConnectionDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D1216178BC41100A4469B /* KCURLConnectionDelegate.h */; };
+		E73A02D41792866400DF1285 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73A02D31792866400DF1285 /* CoreLocation.framework */; };
+		E73A02D61792866900DF1285 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73A02D51792866900DF1285 /* QuartzCore.framework */; };
 		E73E354C178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */; };
 		E73E3550178D144D0079DEFB /* KCErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E354F178D144D0079DEFB /* KCErrorResponse.m */; };
 		E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */; };
@@ -55,6 +74,23 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				E73A029417927F1F00DF1285 /* KCGeometry.h in CopyFiles */,
+				E73A029517927F1F00DF1285 /* UIView+KCServices.h in CopyFiles */,
+				E73A029617927F1F00DF1285 /* UIView+QuartzCore.h in CopyFiles */,
+				E73A029717927F1F00DF1285 /* UIView+Gesture.h in CopyFiles */,
+				E73A029817927F1F00DF1285 /* UIView+Transition.h in CopyFiles */,
+				E73A029917927F1F00DF1285 /* KCLog.h in CopyFiles */,
+				E73A029A17927F1F00DF1285 /* KCURLConnectionThreadManager.h in CopyFiles */,
+				E73A029B17927F1F00DF1285 /* KCURLConnectiontimerManager.h in CopyFiles */,
+				E73A029C17927F1F00DF1285 /* KCHTTPURLResponse.h in CopyFiles */,
+				E73A029D17927F1F00DF1285 /* KCURLConnectionDelegate.h in CopyFiles */,
+				E73A028D17927F0B00DF1285 /* NSDate+KCServices.h in CopyFiles */,
+				E73A028E17927F0B00DF1285 /* KCLocationManager.h in CopyFiles */,
+				E73A028F17927F0B00DF1285 /* KCErrorResponse.h in CopyFiles */,
+				E73A029017927F0B00DF1285 /* KCHTTPURLResponseHandler.h in CopyFiles */,
+				E73A029117927F0B00DF1285 /* KCHTTPError.h in CopyFiles */,
+				E73A029217927F0B00DF1285 /* KCMutableURLRequest.h in CopyFiles */,
+				E73A029317927F0B00DF1285 /* KCURLConnection.h in CopyFiles */,
 				E73844EA178A761100E8EA7A /* NSString+KCJSONSerialization.h in CopyFiles */,
 				E73844EB178A761100E8EA7A /* NSArray+KCJSONSerialization.h in CopyFiles */,
 				E73844EC178A761100E8EA7A /* NSDictionary+KCJSONSerialization.h in CopyFiles */,
@@ -94,6 +130,8 @@
 		E73A0287179273AA00DF1285 /* KCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCLocationManager.m; sourceTree = "<group>"; };
 		E73A028A1792790000DF1285 /* NSDate+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KCServices.h"; sourceTree = "<group>"; };
 		E73A028B1792790000DF1285 /* NSDate+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KCServices.m"; sourceTree = "<group>"; };
+		E73A02D31792866400DF1285 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E73A02D51792866900DF1285 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E73E354A178D0D6A0079DEFB /* KCHTTPURLResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPURLResponseHandler.h; sourceTree = "<group>"; };
 		E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPURLResponseHandler.m; sourceTree = "<group>"; };
 		E73E354E178D144D0079DEFB /* KCErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCErrorResponse.h; sourceTree = "<group>"; };
@@ -138,6 +176,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73A02D61792866900DF1285 /* QuartzCore.framework in Frameworks */,
+				E73A02D41792866400DF1285 /* CoreLocation.framework in Frameworks */,
 				E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +302,8 @@
 		E76BA1F1177653AF001EDCCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E73A02D51792866900DF1285 /* QuartzCore.framework */,
+				E73A02D31792866400DF1285 /* CoreLocation.framework */,
 				E76BA1F2177653AF001EDCCA /* Foundation.framework */,
 			);
 			name = Frameworks;

@@ -18,7 +18,8 @@
 		E738448F178A043E00E8EA7A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E738448E178A043E00E8EA7A /* Default-568h@2x.png */; };
 		E7384492178A043E00E8EA7A /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7384491178A043E00E8EA7A /* SCViewController.m */; };
 		E7384495178A043E00E8EA7A /* SCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7384493178A043E00E8EA7A /* SCViewController.xib */; };
-		E73844AE178A069900E8EA7A /* libKCLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E73844AD178A069900E8EA7A /* libKCLibrary.a */; };
+		E73A02D21792848500DF1285 /* libKCLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E73A02D11792848500DF1285 /* libKCLibrary.a */; };
+		E73A02F01792871100DF1285 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73A02EF1792871100DF1285 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +39,8 @@
 		E7384490178A043E00E8EA7A /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
 		E7384491178A043E00E8EA7A /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
 		E7384494178A043E00E8EA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCViewController.xib; sourceTree = "<group>"; };
-		E73844AD178A069900E8EA7A /* libKCLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKCLibrary.a; path = "../../../Library/Developer/Xcode/DerivedData/KChen-gwqxzjbadukhjpgrqzxyklslgkkg/Build/Products/Debug-iphonesimulator/libKCLibrary.a"; sourceTree = "<group>"; };
+		E73A02D11792848500DF1285 /* libKCLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libKCLibrary.a; path = "../KCLibrary/build/Release-iphoneos/libKCLibrary.a"; sourceTree = "<group>"; };
+		E73A02EF1792871100DF1285 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73A02F01792871100DF1285 /* CoreLocation.framework in Frameworks */,
+				E73A02D21792848500DF1285 /* libKCLibrary.a in Frameworks */,
 				E7384479178A043D00E8EA7A /* UIKit.framework in Frameworks */,
 				E738447B178A043D00E8EA7A /* Foundation.framework in Frameworks */,
 				E738447D178A043D00E8EA7A /* CoreGraphics.framework in Frameworks */,
-				E73844AE178A069900E8EA7A /* libKCLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +79,8 @@
 		E7384477178A043D00E8EA7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E73844AD178A069900E8EA7A /* libKCLibrary.a */,
+				E73A02EF1792871100DF1285 /* CoreLocation.framework */,
+				E73A02D11792848500DF1285 /* libKCLibrary.a */,
 				E7384478178A043D00E8EA7A /* UIKit.framework */,
 				E738447A178A043D00E8EA7A /* Foundation.framework */,
 				E738447C178A043D00E8EA7A /* CoreGraphics.framework */,
@@ -265,8 +269,9 @@
 				INFOPLIST_FILE = "Test/Test-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/KChen-gwqxzjbadukhjpgrqzxyklslgkkg/Build/Products/Debug-iphonesimulator\"",
+					"$(TARGET_BUILD_DIR)/include/",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -280,8 +285,9 @@
 				INFOPLIST_FILE = "Test/Test-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/KChen-gwqxzjbadukhjpgrqzxyklslgkkg/Build/Products/Debug-iphonesimulator\"",
+					"$(TARGET_BUILD_DIR)/include/",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
