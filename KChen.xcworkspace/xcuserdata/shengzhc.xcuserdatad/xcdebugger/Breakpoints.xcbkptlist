@@ -51,5 +51,18 @@
          landmarkName = "@implementation KCURLConnectionDelegate"
          landmarkType = "3">
       </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "KCLibrary/KCLibrary/General/KCLocation/KCLocationManager.m"
+         timestampString = "395474859.50998"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "23"
+         endingLineNumber = "23"
+         landmarkName = "+sharedKCLocationManager"
+         landmarkType = "5">
+      </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

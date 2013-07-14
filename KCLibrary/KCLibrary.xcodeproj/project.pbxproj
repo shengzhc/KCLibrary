@@ -27,6 +27,7 @@
 		E73844EE178A761100E8EA7A /* NSObject+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E2178A614100E8EA7A /* NSObject+KCJSONSerialization.h */; };
 		E73844EF178A761100E8EA7A /* NSDictionary+KCParseJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E6178A62B800E8EA7A /* NSDictionary+KCParseJSON.h */; };
 		E73844F0178A761100E8EA7A /* KCJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E9178A757F00E8EA7A /* KCJSON.h */; };
+		E73A0288179273AA00DF1285 /* KCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A0287179273AA00DF1285 /* KCLocationManager.m */; };
 		E73E354C178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */; };
 		E73E3550178D144D0079DEFB /* KCErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E354F178D144D0079DEFB /* KCErrorResponse.m */; };
 		E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */; };
@@ -88,6 +89,8 @@
 		E73844E6178A62B800E8EA7A /* NSDictionary+KCParseJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KCParseJSON.h"; sourceTree = "<group>"; };
 		E73844E7178A62B900E8EA7A /* NSDictionary+KCParseJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KCParseJSON.m"; sourceTree = "<group>"; };
 		E73844E9178A757F00E8EA7A /* KCJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCJSON.h; sourceTree = "<group>"; };
+		E73A0286179273AA00DF1285 /* KCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLocationManager.h; sourceTree = "<group>"; };
+		E73A0287179273AA00DF1285 /* KCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCLocationManager.m; sourceTree = "<group>"; };
 		E73E354A178D0D6A0079DEFB /* KCHTTPURLResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPURLResponseHandler.h; sourceTree = "<group>"; };
 		E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPURLResponseHandler.m; sourceTree = "<group>"; };
 		E73E354E178D144D0079DEFB /* KCErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCErrorResponse.h; sourceTree = "<group>"; };
@@ -146,6 +149,15 @@
 				E73843E11789E24800E8EA7A /* KCError.m */,
 			);
 			path = KCError;
+			sourceTree = "<group>";
+		};
+		E73A02841792738400DF1285 /* KCLocation */ = {
+			isa = PBXGroup;
+			children = (
+				E73A0286179273AA00DF1285 /* KCLocationManager.h */,
+				E73A0287179273AA00DF1285 /* KCLocationManager.m */,
+			);
+			path = KCLocation;
 			sourceTree = "<group>";
 		};
 		E73E3548178D0D330079DEFB /* KCHTTPURLResponse */ = {
@@ -263,6 +275,7 @@
 		E76BA20517765604001EDCCA /* General */ = {
 			isa = PBXGroup;
 			children = (
+				E73A02841792738400DF1285 /* KCLocation */,
 				E768623E17910B7A00A7F221 /* View */,
 				E73E354D178D14370079DEFB /* KCErrorResponse */,
 				E76D121C178BD57C00A4469B /* KCGlobal */,
@@ -451,6 +464,7 @@
 				E768624C1791154400A7F221 /* UIView+QuartzCore.m in Sources */,
 				E768624F17911C0B00A7F221 /* UIView+Gesture.m in Sources */,
 				E76862521791206400A7F221 /* UIView+Transition.m in Sources */,
+				E73A0288179273AA00DF1285 /* KCLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
