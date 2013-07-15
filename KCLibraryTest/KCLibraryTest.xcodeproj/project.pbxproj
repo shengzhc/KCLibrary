@@ -19,6 +19,8 @@
 		E74FE03A179378CA00085CF8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74FE039179378CA00085CF8 /* QuartzCore.framework */; };
 		E74FE03E179378DC00085CF8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74FE03D179378DC00085CF8 /* CoreLocation.framework */; };
 		E74FE04817937D7D00085CF8 /* libKCLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E74FE04717937D7D00085CF8 /* libKCLibrary.a */; };
+		E74FE05317937F1300085CF8 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE05217937F1300085CF8 /* SCViewController.m */; };
+		E74FE05617937F6100085CF8 /* SCView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE05517937F6100085CF8 /* SCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		E74FE039179378CA00085CF8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E74FE03D179378DC00085CF8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E74FE04717937D7D00085CF8 /* libKCLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKCLibrary.a; path = "../../../Library/Developer/Xcode/DerivedData/KChen-gwqxzjbadukhjpgrqzxyklslgkkg/Build/Products/Debug-iphonesimulator/libKCLibrary.a"; sourceTree = "<group>"; };
+		E74FE05117937F1300085CF8 /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		E74FE05217937F1300085CF8 /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		E74FE05417937F6100085CF8 /* SCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCView.h; sourceTree = "<group>"; };
+		E74FE05517937F6100085CF8 /* SCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,8 @@
 		E74FE020179378A800085CF8 /* KCLibraryTest */ = {
 			isa = PBXGroup;
 			children = (
+				E74FE04F17937EF600085CF8 /* Controller */,
+				E74FE05017937EF600085CF8 /* View */,
 				E74FE029179378A800085CF8 /* AppDelegate.h */,
 				E74FE02A179378A800085CF8 /* AppDelegate.m */,
 				E74FE021179378A800085CF8 /* Supporting Files */,
@@ -109,6 +117,24 @@
 				E74FE030179378A800085CF8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E74FE04F17937EF600085CF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E74FE05117937F1300085CF8 /* SCViewController.h */,
+				E74FE05217937F1300085CF8 /* SCViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E74FE05017937EF600085CF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E74FE05417937F6100085CF8 /* SCView.h */,
+				E74FE05517937F6100085CF8 /* SCView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +204,8 @@
 			files = (
 				E74FE027179378A800085CF8 /* main.m in Sources */,
 				E74FE02B179378A800085CF8 /* AppDelegate.m in Sources */,
+				E74FE05317937F1300085CF8 /* SCViewController.m in Sources */,
+				E74FE05617937F6100085CF8 /* SCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

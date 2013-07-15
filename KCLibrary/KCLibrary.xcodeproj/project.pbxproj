@@ -36,11 +36,6 @@
 		E73A029117927F0B00DF1285 /* KCHTTPError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D121F178BD7DB00A4469B /* KCHTTPError.h */; };
 		E73A029217927F0B00DF1285 /* KCMutableURLRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D1219178BCAB200A4469B /* KCMutableURLRequest.h */; };
 		E73A029317927F0B00DF1285 /* KCURLConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D1211178BC26A00A4469B /* KCURLConnection.h */; };
-		E73A029417927F1F00DF1285 /* KCGeometry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E768624417910BB000A7F221 /* KCGeometry.h */; };
-		E73A029517927F1F00DF1285 /* UIView+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E768624717910C5600A7F221 /* UIView+KCServices.h */; };
-		E73A029617927F1F00DF1285 /* UIView+QuartzCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E768624A1791154400A7F221 /* UIView+QuartzCore.h */; };
-		E73A029717927F1F00DF1285 /* UIView+Gesture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E768624D17911C0B00A7F221 /* UIView+Gesture.h */; };
-		E73A029817927F1F00DF1285 /* UIView+Transition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76862501791206400A7F221 /* UIView+Transition.h */; };
 		E73A029917927F1F00DF1285 /* KCLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D121D178BD59C00A4469B /* KCLog.h */; };
 		E73A029A17927F1F00DF1285 /* KCURLConnectionThreadManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */; };
 		E73A029B17927F1F00DF1285 /* KCURLConnectiontimerManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E3555178D23420079DEFB /* KCURLConnectiontimerManager.h */; };
@@ -53,16 +48,15 @@
 		E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */; };
 		E73E3557178D23420079DEFB /* KCURLConnectiontimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */; };
 		E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */; };
-		E74FE0031793680F00085CF8 /* UILabel+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0021793680F00085CF8 /* UILabel+KCServices.m */; };
-		E74FE0061793682C00085CF8 /* UIButton+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0051793682C00085CF8 /* UIButton+KCServices.m */; };
-		E74FE00A17936DEC00085CF8 /* KCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE00917936DEC00085CF8 /* KCActionSheet.m */; };
-		E74FE04917937DA300085CF8 /* UIButton+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74FE0041793682C00085CF8 /* UIButton+KCServices.h */; };
-		E74FE04A17937DA300085CF8 /* UILabel+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74FE0011793680F00085CF8 /* UILabel+KCServices.h */; };
-		E768624617910BB000A7F221 /* KCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624517910BB000A7F221 /* KCGeometry.m */; };
-		E768624917910C5600A7F221 /* UIView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624817910C5600A7F221 /* UIView+KCServices.m */; };
-		E768624C1791154400A7F221 /* UIView+QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624B1791154400A7F221 /* UIView+QuartzCore.m */; };
-		E768624F17911C0B00A7F221 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624E17911C0B00A7F221 /* UIView+Gesture.m */; };
-		E76862521791206400A7F221 /* UIView+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = E76862511791206400A7F221 /* UIView+Transition.m */; };
+		E74FE0851793829E00085CF8 /* KCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0721793829E00085CF8 /* KCActionSheet.m */; };
+		E74FE0861793829E00085CF8 /* UIButton+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0751793829E00085CF8 /* UIButton+KCServices.m */; };
+		E74FE0871793829E00085CF8 /* UILabel+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0781793829E00085CF8 /* UILabel+KCServices.m */; };
+		E74FE0881793829E00085CF8 /* KCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE07C1793829E00085CF8 /* KCGeometry.m */; };
+		E74FE0891793829E00085CF8 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE07E1793829E00085CF8 /* UIView+Gesture.m */; };
+		E74FE08A1793829E00085CF8 /* UIView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0801793829E00085CF8 /* UIView+KCServices.m */; };
+		E74FE08B1793829E00085CF8 /* UIView+QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0821793829E00085CF8 /* UIView+QuartzCore.m */; };
+		E74FE08C1793829E00085CF8 /* UIView+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0841793829E00085CF8 /* UIView+Transition.m */; };
+		E74FE08F179382CE00085CF8 /* UIScreen+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE08E179382CE00085CF8 /* UIScreen+KCServices.m */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA20B17765819001EDCCA /* NSArray+KCServices.m */; };
 		E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */; };
@@ -79,13 +73,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				E74FE04917937DA300085CF8 /* UIButton+KCServices.h in CopyFiles */,
-				E74FE04A17937DA300085CF8 /* UILabel+KCServices.h in CopyFiles */,
-				E73A029417927F1F00DF1285 /* KCGeometry.h in CopyFiles */,
-				E73A029517927F1F00DF1285 /* UIView+KCServices.h in CopyFiles */,
-				E73A029617927F1F00DF1285 /* UIView+QuartzCore.h in CopyFiles */,
-				E73A029717927F1F00DF1285 /* UIView+Gesture.h in CopyFiles */,
-				E73A029817927F1F00DF1285 /* UIView+Transition.h in CopyFiles */,
 				E73A029917927F1F00DF1285 /* KCLog.h in CopyFiles */,
 				E73A029A17927F1F00DF1285 /* KCURLConnectionThreadManager.h in CopyFiles */,
 				E73A029B17927F1F00DF1285 /* KCURLConnectiontimerManager.h in CopyFiles */,
@@ -149,22 +136,24 @@
 		E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectiontimerManager.m; sourceTree = "<group>"; };
 		E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectionThreadManager.h; sourceTree = "<group>"; };
 		E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectionThreadManager.m; sourceTree = "<group>"; };
-		E74FE0011793680F00085CF8 /* UILabel+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KCServices.h"; sourceTree = "<group>"; };
-		E74FE0021793680F00085CF8 /* UILabel+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KCServices.m"; sourceTree = "<group>"; };
-		E74FE0041793682C00085CF8 /* UIButton+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KCServices.h"; sourceTree = "<group>"; };
-		E74FE0051793682C00085CF8 /* UIButton+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KCServices.m"; sourceTree = "<group>"; };
-		E74FE00817936DEC00085CF8 /* KCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCActionSheet.h; sourceTree = "<group>"; };
-		E74FE00917936DEC00085CF8 /* KCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCActionSheet.m; sourceTree = "<group>"; };
-		E768624417910BB000A7F221 /* KCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGeometry.h; sourceTree = "<group>"; };
-		E768624517910BB000A7F221 /* KCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeometry.m; sourceTree = "<group>"; };
-		E768624717910C5600A7F221 /* UIView+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCServices.h"; sourceTree = "<group>"; };
-		E768624817910C5600A7F221 /* UIView+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCServices.m"; sourceTree = "<group>"; };
-		E768624A1791154400A7F221 /* UIView+QuartzCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuartzCore.h"; sourceTree = "<group>"; };
-		E768624B1791154400A7F221 /* UIView+QuartzCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuartzCore.m"; sourceTree = "<group>"; };
-		E768624D17911C0B00A7F221 /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
-		E768624E17911C0B00A7F221 /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
-		E76862501791206400A7F221 /* UIView+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Transition.h"; sourceTree = "<group>"; };
-		E76862511791206400A7F221 /* UIView+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Transition.m"; sourceTree = "<group>"; };
+		E74FE0711793829E00085CF8 /* KCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCActionSheet.h; sourceTree = "<group>"; };
+		E74FE0721793829E00085CF8 /* KCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCActionSheet.m; sourceTree = "<group>"; };
+		E74FE0741793829E00085CF8 /* UIButton+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KCServices.h"; sourceTree = "<group>"; };
+		E74FE0751793829E00085CF8 /* UIButton+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KCServices.m"; sourceTree = "<group>"; };
+		E74FE0771793829E00085CF8 /* UILabel+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KCServices.h"; sourceTree = "<group>"; };
+		E74FE0781793829E00085CF8 /* UILabel+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KCServices.m"; sourceTree = "<group>"; };
+		E74FE07B1793829E00085CF8 /* KCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGeometry.h; sourceTree = "<group>"; };
+		E74FE07C1793829E00085CF8 /* KCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeometry.m; sourceTree = "<group>"; };
+		E74FE07D1793829E00085CF8 /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
+		E74FE07E1793829E00085CF8 /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
+		E74FE07F1793829E00085CF8 /* UIView+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCServices.h"; sourceTree = "<group>"; };
+		E74FE0801793829E00085CF8 /* UIView+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCServices.m"; sourceTree = "<group>"; };
+		E74FE0811793829E00085CF8 /* UIView+QuartzCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuartzCore.h"; sourceTree = "<group>"; };
+		E74FE0821793829E00085CF8 /* UIView+QuartzCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuartzCore.m"; sourceTree = "<group>"; };
+		E74FE0831793829E00085CF8 /* UIView+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Transition.h"; sourceTree = "<group>"; };
+		E74FE0841793829E00085CF8 /* UIView+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Transition.m"; sourceTree = "<group>"; };
+		E74FE08D179382CE00085CF8 /* UIScreen+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+KCServices.h"; sourceTree = "<group>"; };
+		E74FE08E179382CE00085CF8 /* UIScreen+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+KCServices.m"; sourceTree = "<group>"; };
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -270,57 +259,67 @@
 			path = KCURLConnectionThreadManager;
 			sourceTree = "<group>";
 		};
-		E74FDFFF1793680F00085CF8 /* KCButton */ = {
+		E74FE06F1793829E00085CF8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E74FE0041793682C00085CF8 /* UIButton+KCServices.h */,
-				E74FE0051793682C00085CF8 /* UIButton+KCServices.m */,
-			);
-			path = KCButton;
-			sourceTree = "<group>";
-		};
-		E74FE0001793680F00085CF8 /* KCLabel */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE0011793680F00085CF8 /* UILabel+KCServices.h */,
-				E74FE0021793680F00085CF8 /* UILabel+KCServices.m */,
-			);
-			path = KCLabel;
-			sourceTree = "<group>";
-		};
-		E74FE00717936DC800085CF8 /* KCActionSheet */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE00817936DEC00085CF8 /* KCActionSheet.h */,
-				E74FE00917936DEC00085CF8 /* KCActionSheet.m */,
-			);
-			path = KCActionSheet;
-			sourceTree = "<group>";
-		};
-		E768623E17910B7A00A7F221 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE00717936DC800085CF8 /* KCActionSheet */,
-				E74FDFFF1793680F00085CF8 /* KCButton */,
-				E74FE0001793680F00085CF8 /* KCLabel */,
-				E768623F17910B7A00A7F221 /* KCView */,
+				E74FE0701793829E00085CF8 /* KCActionSheet */,
+				E74FE0731793829E00085CF8 /* KCButton */,
+				E74FE0761793829E00085CF8 /* KCLabel */,
+				E74FE0791793829E00085CF8 /* KCScreen */,
+				E74FE07A1793829E00085CF8 /* KCView */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E768623F17910B7A00A7F221 /* KCView */ = {
+		E74FE0701793829E00085CF8 /* KCActionSheet */ = {
 			isa = PBXGroup;
 			children = (
-				E768624417910BB000A7F221 /* KCGeometry.h */,
-				E768624517910BB000A7F221 /* KCGeometry.m */,
-				E768624717910C5600A7F221 /* UIView+KCServices.h */,
-				E768624817910C5600A7F221 /* UIView+KCServices.m */,
-				E768624A1791154400A7F221 /* UIView+QuartzCore.h */,
-				E768624B1791154400A7F221 /* UIView+QuartzCore.m */,
-				E768624D17911C0B00A7F221 /* UIView+Gesture.h */,
-				E768624E17911C0B00A7F221 /* UIView+Gesture.m */,
-				E76862501791206400A7F221 /* UIView+Transition.h */,
-				E76862511791206400A7F221 /* UIView+Transition.m */,
+				E74FE0711793829E00085CF8 /* KCActionSheet.h */,
+				E74FE0721793829E00085CF8 /* KCActionSheet.m */,
+			);
+			path = KCActionSheet;
+			sourceTree = "<group>";
+		};
+		E74FE0731793829E00085CF8 /* KCButton */ = {
+			isa = PBXGroup;
+			children = (
+				E74FE0741793829E00085CF8 /* UIButton+KCServices.h */,
+				E74FE0751793829E00085CF8 /* UIButton+KCServices.m */,
+			);
+			path = KCButton;
+			sourceTree = "<group>";
+		};
+		E74FE0761793829E00085CF8 /* KCLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E74FE0771793829E00085CF8 /* UILabel+KCServices.h */,
+				E74FE0781793829E00085CF8 /* UILabel+KCServices.m */,
+			);
+			path = KCLabel;
+			sourceTree = "<group>";
+		};
+		E74FE0791793829E00085CF8 /* KCScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E74FE08D179382CE00085CF8 /* UIScreen+KCServices.h */,
+				E74FE08E179382CE00085CF8 /* UIScreen+KCServices.m */,
+			);
+			path = KCScreen;
+			sourceTree = "<group>";
+		};
+		E74FE07A1793829E00085CF8 /* KCView */ = {
+			isa = PBXGroup;
+			children = (
+				E74FE07B1793829E00085CF8 /* KCGeometry.h */,
+				E74FE07C1793829E00085CF8 /* KCGeometry.m */,
+				E74FE07D1793829E00085CF8 /* UIView+Gesture.h */,
+				E74FE07E1793829E00085CF8 /* UIView+Gesture.m */,
+				E74FE07F1793829E00085CF8 /* UIView+KCServices.h */,
+				E74FE0801793829E00085CF8 /* UIView+KCServices.m */,
+				E74FE0811793829E00085CF8 /* UIView+QuartzCore.h */,
+				E74FE0821793829E00085CF8 /* UIView+QuartzCore.m */,
+				E74FE0831793829E00085CF8 /* UIView+Transition.h */,
+				E74FE0841793829E00085CF8 /* UIView+Transition.m */,
 			);
 			path = KCView;
 			sourceTree = "<group>";
@@ -355,6 +354,7 @@
 		E76BA1F4177653AF001EDCCA /* KCLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				E74FE06F1793829E00085CF8 /* View */,
 				E76BA20517765604001EDCCA /* General */,
 				E76BA1F5177653AF001EDCCA /* Supporting Files */,
 			);
@@ -374,7 +374,6 @@
 			children = (
 				E73A0289179278E700DF1285 /* KCDate */,
 				E73A02841792738400DF1285 /* KCLocation */,
-				E768623E17910B7A00A7F221 /* View */,
 				E73E354D178D14370079DEFB /* KCErrorResponse */,
 				E76D121C178BD57C00A4469B /* KCGlobal */,
 				E76D120E178BC1E300A4469B /* KCHTTP */,
@@ -557,16 +556,17 @@
 				E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */,
 				E73E3557178D23420079DEFB /* KCURLConnectiontimerManager.m in Sources */,
 				E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */,
-				E768624617910BB000A7F221 /* KCGeometry.m in Sources */,
-				E768624917910C5600A7F221 /* UIView+KCServices.m in Sources */,
-				E768624C1791154400A7F221 /* UIView+QuartzCore.m in Sources */,
-				E768624F17911C0B00A7F221 /* UIView+Gesture.m in Sources */,
-				E76862521791206400A7F221 /* UIView+Transition.m in Sources */,
 				E73A0288179273AA00DF1285 /* KCLocationManager.m in Sources */,
 				E73A028C1792790000DF1285 /* NSDate+KCServices.m in Sources */,
-				E74FE0031793680F00085CF8 /* UILabel+KCServices.m in Sources */,
-				E74FE0061793682C00085CF8 /* UIButton+KCServices.m in Sources */,
-				E74FE00A17936DEC00085CF8 /* KCActionSheet.m in Sources */,
+				E74FE0851793829E00085CF8 /* KCActionSheet.m in Sources */,
+				E74FE0861793829E00085CF8 /* UIButton+KCServices.m in Sources */,
+				E74FE0871793829E00085CF8 /* UILabel+KCServices.m in Sources */,
+				E74FE0881793829E00085CF8 /* KCGeometry.m in Sources */,
+				E74FE0891793829E00085CF8 /* UIView+Gesture.m in Sources */,
+				E74FE08A1793829E00085CF8 /* UIView+KCServices.m in Sources */,
+				E74FE08B1793829E00085CF8 /* UIView+QuartzCore.m in Sources */,
+				E74FE08C1793829E00085CF8 /* UIView+Transition.m in Sources */,
+				E74FE08F179382CE00085CF8 /* UIScreen+KCServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
