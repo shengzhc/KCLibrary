@@ -56,6 +56,8 @@
 		E74FE0031793680F00085CF8 /* UILabel+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0021793680F00085CF8 /* UILabel+KCServices.m */; };
 		E74FE0061793682C00085CF8 /* UIButton+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0051793682C00085CF8 /* UIButton+KCServices.m */; };
 		E74FE00A17936DEC00085CF8 /* KCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE00917936DEC00085CF8 /* KCActionSheet.m */; };
+		E74FE04917937DA300085CF8 /* UIButton+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74FE0041793682C00085CF8 /* UIButton+KCServices.h */; };
+		E74FE04A17937DA300085CF8 /* UILabel+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74FE0011793680F00085CF8 /* UILabel+KCServices.h */; };
 		E768624617910BB000A7F221 /* KCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624517910BB000A7F221 /* KCGeometry.m */; };
 		E768624917910C5600A7F221 /* UIView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624817910C5600A7F221 /* UIView+KCServices.m */; };
 		E768624C1791154400A7F221 /* UIView+QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E768624B1791154400A7F221 /* UIView+QuartzCore.m */; };
@@ -77,6 +79,8 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				E74FE04917937DA300085CF8 /* UIButton+KCServices.h in CopyFiles */,
+				E74FE04A17937DA300085CF8 /* UILabel+KCServices.h in CopyFiles */,
 				E73A029417927F1F00DF1285 /* KCGeometry.h in CopyFiles */,
 				E73A029517927F1F00DF1285 /* UIView+KCServices.h in CopyFiles */,
 				E73A029617927F1F00DF1285 /* UIView+QuartzCore.h in CopyFiles */,
