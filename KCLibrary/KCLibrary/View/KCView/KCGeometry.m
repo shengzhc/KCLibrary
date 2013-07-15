@@ -143,7 +143,7 @@ CGSize KCSizeMake(CGFloat width, CGFloat height)
 
 CGRect KCRectMake(CGFloat x, CGFloat y, CGFloat width, CGFloat height)
 {
-#warning position does not mean pixel, and check for retina special case
+#warning SC position does not mean pixel, and check for retina special case
     return CGRectMake(x, y, width, height);
 }
 

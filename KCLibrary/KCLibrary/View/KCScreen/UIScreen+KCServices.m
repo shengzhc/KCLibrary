@@ -7,7 +7,41 @@
 //
 
 #import "UIScreen+KCServices.h"
+#import "KCGeometry.h"
 
 @implementation UIScreen (KCServices)
+
+
++ (BOOL)isRetina
+{
+    if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] &&
+        [UIScreen mainScreen].scale == 2.0)
+    {
+        return YES;
+    }
+    
+    return NO;
+}
+
++ (CGRect)applicationFrame
+{
+    return CGRectZero;
+}
+
++ (CGFloat)screenHeigth
+{
+    return [[UIScreen mainScreen] applicationFrame].size.height +
+    [UIApplication sharedApplication].statusBarFrame.size.height;
+}
+
++ (CGFloat)screenWidth
+{
+    return [[UIScreen mainScreen] applicationFrame].size.width;
+}
+
++ (CGFloat)statusBarHeight
+{
+    return [UIApplication sharedApplication].statusBarFrame.size.height;
+}
 
 @end

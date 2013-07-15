@@ -10,4 +10,9 @@
 
 @interface UIScreen (KCServices)
 
++ (BOOL)isRetina;
++ (CGFloat)screenHeigth;
++ (CGFloat)screenWidth;
++ (CGFloat)statusBarHeight;
+
 @end
