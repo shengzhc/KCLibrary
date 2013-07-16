@@ -23,11 +23,6 @@
     return NO;
 }
 
-+ (CGRect)applicationFrame
-{
-    return CGRectZero;
-}
-
 + (CGFloat)screenHeigth
 {
     return [[UIScreen mainScreen] applicationFrame].size.height +
