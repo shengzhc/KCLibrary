@@ -52,6 +52,8 @@
 		E74B08EE1794FE5200B82BE7 /* UIImageView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08ED1794FE5200B82BE7 /* UIImageView+KCServices.m */; };
 		E74B08F7179507D200B82BE7 /* KCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08F6179507D200B82BE7 /* KCViewController.m */; };
 		E74B08FD1795083300B82BE7 /* KCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08FC1795083300B82BE7 /* KCNavigationController.m */; };
+		E74B090117950B0200B82BE7 /* KCNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B090017950B0200B82BE7 /* KCNavigationBar.m */; };
+		E74B090417950B7700B82BE7 /* UINavigationItem+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B090317950B7700B82BE7 /* UINavigationItem+KCServices.m */; };
 		E74FE0851793829E00085CF8 /* KCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0721793829E00085CF8 /* KCActionSheet.m */; };
 		E74FE0861793829E00085CF8 /* UIButton+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0751793829E00085CF8 /* UIButton+KCServices.m */; };
 		E74FE0871793829E00085CF8 /* UILabel+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0781793829E00085CF8 /* UILabel+KCServices.m */; };
@@ -151,6 +153,10 @@
 		E74B08F6179507D200B82BE7 /* KCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCViewController.m; sourceTree = "<group>"; };
 		E74B08FB1795083300B82BE7 /* KCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNavigationController.h; sourceTree = "<group>"; };
 		E74B08FC1795083300B82BE7 /* KCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNavigationController.m; sourceTree = "<group>"; };
+		E74B08FF17950B0200B82BE7 /* KCNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNavigationBar.h; sourceTree = "<group>"; };
+		E74B090017950B0200B82BE7 /* KCNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNavigationBar.m; sourceTree = "<group>"; };
+		E74B090217950B7700B82BE7 /* UINavigationItem+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+KCServices.h"; sourceTree = "<group>"; };
+		E74B090317950B7700B82BE7 /* UINavigationItem+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+KCServices.m"; sourceTree = "<group>"; };
 		E74FE0711793829E00085CF8 /* KCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCActionSheet.h; sourceTree = "<group>"; };
 		E74FE0721793829E00085CF8 /* KCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCActionSheet.m; sourceTree = "<group>"; };
 		E74FE0741793829E00085CF8 /* UIButton+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KCServices.h"; sourceTree = "<group>"; };
@@ -175,6 +181,8 @@
 		E74FE0991793B6FF00085CF8 /* NSObject+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCServices.m"; sourceTree = "<group>"; };
 		E74FE09C1793C68900085CF8 /* NSString+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KCServices.h"; sourceTree = "<group>"; };
 		E74FE09D1793C68900085CF8 /* NSString+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KCServices.m"; sourceTree = "<group>"; };
+		E753F0AB179512AF00E4EE74 /* navigation_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_header.png; sourceTree = "<group>"; };
+		E753F0AC179512AF00E4EE74 /* navigation_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_header@2x.png"; sourceTree = "<group>"; };
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -316,9 +324,37 @@
 			path = KCViewController;
 			sourceTree = "<group>";
 		};
+		E74B08FE17950AE600B82BE7 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				E74B08FF17950B0200B82BE7 /* KCNavigationBar.h */,
+				E74B090017950B0200B82BE7 /* KCNavigationBar.m */,
+				E74B090217950B7700B82BE7 /* UINavigationItem+KCServices.h */,
+				E74B090317950B7700B82BE7 /* UINavigationItem+KCServices.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		E74B09051795123300B82BE7 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				E74B09061795123300B82BE7 /* Images */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		E74B09061795123300B82BE7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E753F0AA179512AF00E4EE74 /* Navigation */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		E74FE06F1793829E00085CF8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E74B08FE17950AE600B82BE7 /* NavigationBar */,
 				E74B08EB1794FE3600B82BE7 /* KCImageView */,
 				E74FE0701793829E00085CF8 /* KCActionSheet */,
 				E74FE0731793829E00085CF8 /* KCButton */,
@@ -411,9 +447,19 @@
 			path = KCString;
 			sourceTree = "<group>";
 		};
+		E753F0AA179512AF00E4EE74 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E753F0AB179512AF00E4EE74 /* navigation_header.png */,
+				E753F0AC179512AF00E4EE74 /* navigation_header@2x.png */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		E76BA1E4177653AF001EDCCA = {
 			isa = PBXGroup;
 			children = (
+				E74B09051795123300B82BE7 /* Bundle */,
 				E76BA1F4177653AF001EDCCA /* KCLibrary */,
 				E76BA1F1177653AF001EDCCA /* Frameworks */,
 				E76BA1F0177653AF001EDCCA /* Products */,
@@ -665,6 +711,8 @@
 				E74B08EE1794FE5200B82BE7 /* UIImageView+KCServices.m in Sources */,
 				E74B08F7179507D200B82BE7 /* KCViewController.m in Sources */,
 				E74B08FD1795083300B82BE7 /* KCNavigationController.m in Sources */,
+				E74B090117950B0200B82BE7 /* KCNavigationBar.m in Sources */,
+				E74B090417950B7700B82BE7 /* UINavigationItem+KCServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
