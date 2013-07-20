@@ -7,72 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E73843E21789E24800E8EA7A /* KCError.m in Sources */ = {isa = PBXBuildFile; fileRef = E73843E11789E24800E8EA7A /* KCError.m */; };
-		E73843E51789F40D00E8EA7A /* KCJSONError.m in Sources */ = {isa = PBXBuildFile; fileRef = E73843E41789F40D00E8EA7A /* KCJSONError.m */; };
-		E7384460178A036900E8EA7A /* KCError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73843E01789E24800E8EA7A /* KCError.h */; };
-		E7384461178A036900E8EA7A /* KCJSONError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73843E31789F40D00E8EA7A /* KCJSONError.h */; };
-		E7384462178A036900E8EA7A /* KCBlockHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76BA20F1776BDA4001EDCCA /* KCBlockHandler.h */; };
-		E7384463178A036900E8EA7A /* NSArray+Extension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76BA20D1776B784001EDCCA /* NSArray+Extension.h */; };
-		E7384464178A036900E8EA7A /* NSArray+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76BA20A17765819001EDCCA /* NSArray+KCServices.h */; };
-		E73844CB178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844CA178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m */; };
-		E73844CE178A559400E8EA7A /* NSArray+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844CD178A559300E8EA7A /* NSArray+KCJSONSerialization.m */; };
-		E73844D1178A579000E8EA7A /* NSDictionary+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844D0178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.m */; };
-		E73844D4178A5AC100E8EA7A /* NSData+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844D3178A5AC100E8EA7A /* NSData+KCJSONSerialization.m */; };
-		E73844E4178A614100E8EA7A /* NSObject+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844E3178A614100E8EA7A /* NSObject+KCJSONSerialization.m */; };
-		E73844E8178A62B900E8EA7A /* NSDictionary+KCParseJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E73844E7178A62B900E8EA7A /* NSDictionary+KCParseJSON.m */; };
-		E73844EA178A761100E8EA7A /* NSString+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844C9178A4E8A00E8EA7A /* NSString+KCJSONSerialization.h */; };
-		E73844EB178A761100E8EA7A /* NSArray+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844CC178A559300E8EA7A /* NSArray+KCJSONSerialization.h */; };
-		E73844EC178A761100E8EA7A /* NSDictionary+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844CF178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.h */; };
-		E73844ED178A761100E8EA7A /* NSData+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844D2178A5AC000E8EA7A /* NSData+KCJSONSerialization.h */; };
-		E73844EE178A761100E8EA7A /* NSObject+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E2178A614100E8EA7A /* NSObject+KCJSONSerialization.h */; };
-		E73844EF178A761100E8EA7A /* NSDictionary+KCParseJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E6178A62B800E8EA7A /* NSDictionary+KCParseJSON.h */; };
-		E73844F0178A761100E8EA7A /* KCJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73844E9178A757F00E8EA7A /* KCJSON.h */; };
-		E73A0288179273AA00DF1285 /* KCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A0287179273AA00DF1285 /* KCLocationManager.m */; };
-		E73A028C1792790000DF1285 /* NSDate+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73A028B1792790000DF1285 /* NSDate+KCServices.m */; };
-		E73A028D17927F0B00DF1285 /* NSDate+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73A028A1792790000DF1285 /* NSDate+KCServices.h */; };
-		E73A028E17927F0B00DF1285 /* KCLocationManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73A0286179273AA00DF1285 /* KCLocationManager.h */; };
-		E73A028F17927F0B00DF1285 /* KCErrorResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E354E178D144D0079DEFB /* KCErrorResponse.h */; };
-		E73A029017927F0B00DF1285 /* KCHTTPURLResponseHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E354A178D0D6A0079DEFB /* KCHTTPURLResponseHandler.h */; };
-		E73A029117927F0B00DF1285 /* KCHTTPError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D121F178BD7DB00A4469B /* KCHTTPError.h */; };
-		E73A029217927F0B00DF1285 /* KCMutableURLRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D1219178BCAB200A4469B /* KCMutableURLRequest.h */; };
-		E73A029317927F0B00DF1285 /* KCURLConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D1211178BC26A00A4469B /* KCURLConnection.h */; };
-		E73A029917927F1F00DF1285 /* KCLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D121D178BD59C00A4469B /* KCLog.h */; };
-		E73A029A17927F1F00DF1285 /* KCURLConnectionThreadManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */; };
-		E73A029B17927F1F00DF1285 /* KCURLConnectiontimerManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E3555178D23420079DEFB /* KCURLConnectiontimerManager.h */; };
-		E73A029C17927F1F00DF1285 /* KCHTTPURLResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73E3551178D15BE0079DEFB /* KCHTTPURLResponse.h */; };
-		E73A029D17927F1F00DF1285 /* KCURLConnectionDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E76D1216178BC41100A4469B /* KCURLConnectionDelegate.h */; };
 		E73A02D41792866400DF1285 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73A02D31792866400DF1285 /* CoreLocation.framework */; };
 		E73A02D61792866900DF1285 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73A02D51792866900DF1285 /* QuartzCore.framework */; };
-		E73E354C178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */; };
-		E73E3550178D144D0079DEFB /* KCErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E354F178D144D0079DEFB /* KCErrorResponse.m */; };
-		E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */; };
-		E73E3557178D23420079DEFB /* KCURLConnectiontimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */; };
-		E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */; };
-		E74B08E91794FC0600B82BE7 /* KCView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08E81794FC0600B82BE7 /* KCView.m */; };
-		E74B08EE1794FE5200B82BE7 /* UIImageView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08ED1794FE5200B82BE7 /* UIImageView+KCServices.m */; };
+		E73ED66A179A54710062643B /* KCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED64C179A54710062643B /* KCActionSheet.m */; };
+		E73ED66B179A54710062643B /* UIButton+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED64F179A54710062643B /* UIButton+KCServices.m */; };
+		E73ED66C179A54710062643B /* UIImageView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED652179A54710062643B /* UIImageView+KCServices.m */; };
+		E73ED66D179A54710062643B /* UILabel+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED655179A54710062643B /* UILabel+KCServices.m */; };
+		E73ED66E179A54710062643B /* KCModalNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED658179A54710062643B /* KCModalNavigationBar.m */; };
+		E73ED66F179A54710062643B /* KCNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED65A179A54710062643B /* KCNavigationBar.m */; };
+		E73ED670179A54710062643B /* UINavigationItem+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED65C179A54710062643B /* UINavigationItem+KCServices.m */; };
+		E73ED671179A54710062643B /* KCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED65F179A54710062643B /* KCGeometry.m */; };
+		E73ED672179A54710062643B /* KCView.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED661179A54710062643B /* KCView.m */; };
+		E73ED673179A54710062643B /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED663179A54710062643B /* UIView+Gesture.m */; };
+		E73ED674179A54710062643B /* UIView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED665179A54710062643B /* UIView+KCServices.m */; };
+		E73ED675179A54710062643B /* UIView+QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED667179A54710062643B /* UIView+QuartzCore.m */; };
+		E73ED676179A54710062643B /* UIView+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED669179A54710062643B /* UIView+Transition.m */; };
+		E73ED679179A548A0062643B /* KCGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED678179A548A0062643B /* KCGradientButton.m */; };
+		E73ED6D5179A5C840062643B /* KCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED686179A5C840062643B /* KCBlockHandler.m */; };
+		E73ED6D6179A5C840062643B /* KCError.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED68A179A5C840062643B /* KCError.m */; };
+		E73ED6D7179A5C840062643B /* KCErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED68D179A5C840062643B /* KCErrorResponse.m */; };
+		E73ED6D8179A5C840062643B /* NSArray+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED692179A5C840062643B /* NSArray+KCServices.m */; };
+		E73ED6D9179A5C840062643B /* NSDate+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED695179A5C840062643B /* NSDate+KCServices.m */; };
+		E73ED6DA179A5C840062643B /* NSNumber+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED698179A5C840062643B /* NSNumber+KCServices.m */; };
+		E73ED6DB179A5C840062643B /* NSObject+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED69B179A5C840062643B /* NSObject+KCServices.m */; };
+		E73ED6DC179A5C840062643B /* NSString+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED69E179A5C840062643B /* NSString+KCServices.m */; };
+		E73ED6DD179A5C840062643B /* UIFont+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6A1179A5C840062643B /* UIFont+KCServices.m */; };
+		E73ED6DE179A5C840062643B /* KCHTTPError.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6A5179A5C840062643B /* KCHTTPError.m */; };
+		E73ED6DF179A5C840062643B /* KCHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6A8179A5C840062643B /* KCHTTPURLResponse.m */; };
+		E73ED6E0179A5C840062643B /* KCHTTPURLResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6AB179A5C840062643B /* KCHTTPURLResponseHandler.m */; };
+		E73ED6E1179A5C840062643B /* KCMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6AE179A5C840062643B /* KCMutableURLRequest.m */; };
+		E73ED6E2179A5C840062643B /* KCURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6B1179A5C840062643B /* KCURLConnection.m */; };
+		E73ED6E3179A5C840062643B /* KCURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6B4179A5C840062643B /* KCURLConnectionDelegate.m */; };
+		E73ED6E4179A5C840062643B /* KCURLConnectionThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6B7179A5C840062643B /* KCURLConnectionThreadManager.m */; };
+		E73ED6E5179A5C840062643B /* KCURLConnectiontimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6BA179A5C840062643B /* KCURLConnectiontimerManager.m */; };
+		E73ED6E6179A5C840062643B /* UIImage+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6BD179A5C840062643B /* UIImage+KCServices.m */; };
+		E73ED6E7179A5C840062643B /* KCJSONError.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6C1179A5C840062643B /* KCJSONError.m */; };
+		E73ED6E8179A5C840062643B /* NSArray+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6C3179A5C840062643B /* NSArray+KCJSONSerialization.m */; };
+		E73ED6E9179A5C840062643B /* NSData+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6C5179A5C840062643B /* NSData+KCJSONSerialization.m */; };
+		E73ED6EA179A5C840062643B /* NSDictionary+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6C7179A5C840062643B /* NSDictionary+KCJSONSerialization.m */; };
+		E73ED6EB179A5C840062643B /* NSDictionary+KCParseJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6C9179A5C840062643B /* NSDictionary+KCParseJSON.m */; };
+		E73ED6EC179A5C840062643B /* NSObject+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6CB179A5C840062643B /* NSObject+KCJSONSerialization.m */; };
+		E73ED6ED179A5C840062643B /* NSString+KCJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6CD179A5C840062643B /* NSString+KCJSONSerialization.m */; };
+		E73ED6EE179A5C840062643B /* KCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6D1179A5C840062643B /* KCLocationManager.m */; };
+		E73ED6EF179A5C840062643B /* UIScreen+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E73ED6D4179A5C840062643B /* UIScreen+KCServices.m */; };
+		E73ED702179A5D200062643B /* KCBlockHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED685179A5C840062643B /* KCBlockHandler.h */; };
+		E73ED703179A5D200062643B /* KCError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED689179A5C840062643B /* KCError.h */; };
+		E73ED704179A5D200062643B /* KCErrorResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED68C179A5C840062643B /* KCErrorResponse.h */; };
+		E73ED705179A5D200062643B /* NSNumber+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED697179A5C840062643B /* NSNumber+KCServices.h */; };
+		E73ED706179A5D200062643B /* NSString+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED69D179A5C840062643B /* NSString+KCServices.h */; };
+		E73ED707179A5D200062643B /* UIFont+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6A0179A5C840062643B /* UIFont+KCServices.h */; };
+		E73ED708179A5D200062643B /* UIImage+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6BC179A5C840062643B /* UIImage+KCServices.h */; };
+		E73ED709179A5D200062643B /* KCJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6BF179A5C840062643B /* KCJSON.h */; };
+		E73ED70A179A5D200062643B /* KCJSONError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6C0179A5C840062643B /* KCJSONError.h */; };
+		E73ED70B179A5D200062643B /* NSArray+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6C2179A5C840062643B /* NSArray+KCJSONSerialization.h */; };
+		E73ED70C179A5D200062643B /* NSData+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6C4179A5C840062643B /* NSData+KCJSONSerialization.h */; };
+		E73ED70D179A5D200062643B /* NSDictionary+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6C6179A5C840062643B /* NSDictionary+KCJSONSerialization.h */; };
+		E73ED70E179A5D200062643B /* NSDictionary+KCParseJSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6C8179A5C840062643B /* NSDictionary+KCParseJSON.h */; };
+		E73ED70F179A5D200062643B /* NSObject+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6CA179A5C840062643B /* NSObject+KCJSONSerialization.h */; };
+		E73ED710179A5D200062643B /* NSString+KCJSONSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6CC179A5C840062643B /* NSString+KCJSONSerialization.h */; };
+		E73ED711179A5D200062643B /* KCUtility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6CE179A5C840062643B /* KCUtility.h */; };
+		E73ED712179A5D200062643B /* KCLocationManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6D0179A5C840062643B /* KCLocationManager.h */; };
+		E73ED713179A5D200062643B /* UIScreen+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6D3179A5C840062643B /* UIScreen+KCServices.h */; };
+		E73ED714179A5D200062643B /* KCActionSheet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED64B179A54710062643B /* KCActionSheet.h */; };
+		E73ED715179A5D200062643B /* UIButton+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED64E179A54710062643B /* UIButton+KCServices.h */; };
+		E73ED716179A5D200062643B /* KCGradientButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED677179A548A0062643B /* KCGradientButton.h */; };
+		E73ED717179A5D200062643B /* UILabel+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED654179A54710062643B /* UILabel+KCServices.h */; };
+		E73ED718179A5D200062643B /* KCGeometry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED65E179A54710062643B /* KCGeometry.h */; };
+		E73ED719179A5D200062643B /* KCView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED660179A54710062643B /* KCView.h */; };
+		E73ED71A179A5D200062643B /* UIView+Gesture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED662179A54710062643B /* UIView+Gesture.h */; };
+		E73ED71B179A5D200062643B /* UIView+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED664179A54710062643B /* UIView+KCServices.h */; };
+		E73ED71C179A5D200062643B /* UIView+QuartzCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED666179A54710062643B /* UIView+QuartzCore.h */; };
+		E73ED71D179A5D200062643B /* UIView+Transition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED668179A54710062643B /* UIView+Transition.h */; };
+		E73ED71E179A5D200062643B /* KCLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED5B5179A53070062643B /* KCLog.h */; };
+		E73ED71F179A5D200062643B /* KCNotifications.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED61A179A532F0062643B /* KCNotifications.h */; };
+		E73ED720179A5D200062643B /* KCViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74B08F5179507D200B82BE7 /* KCViewController.h */; };
+		E73ED721179A5D290062643B /* NSArray+Extension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED690179A5C840062643B /* NSArray+Extension.h */; };
+		E73ED722179A5D290062643B /* NSArray+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED691179A5C840062643B /* NSArray+KCServices.h */; };
+		E73ED723179A5D290062643B /* NSDate+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED694179A5C840062643B /* NSDate+KCServices.h */; };
+		E73ED724179A5D290062643B /* NSObject+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED69A179A5C840062643B /* NSObject+KCServices.h */; };
+		E73ED725179A5D290062643B /* KCHTTPError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6A4179A5C840062643B /* KCHTTPError.h */; };
+		E73ED726179A5D290062643B /* KCHTTPURLResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6A7179A5C840062643B /* KCHTTPURLResponse.h */; };
+		E73ED727179A5D290062643B /* KCHTTPURLResponseHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6AA179A5C840062643B /* KCHTTPURLResponseHandler.h */; };
+		E73ED728179A5D290062643B /* KCMutableURLRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6AD179A5C840062643B /* KCMutableURLRequest.h */; };
+		E73ED729179A5D290062643B /* KCURLConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6B0179A5C840062643B /* KCURLConnection.h */; };
+		E73ED72A179A5D290062643B /* KCURLConnectionDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6B3179A5C840062643B /* KCURLConnectionDelegate.h */; };
+		E73ED72B179A5D290062643B /* KCURLConnectiontimerManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6B9179A5C840062643B /* KCURLConnectiontimerManager.h */; };
+		E73ED72C179A5D290062643B /* UIImageView+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED651179A54710062643B /* UIImageView+KCServices.h */; };
+		E73ED72D179A5D290062643B /* KCModalNavigationBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED657179A54710062643B /* KCModalNavigationBar.h */; };
+		E73ED72E179A5D290062643B /* KCNavigationBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED659179A54710062643B /* KCNavigationBar.h */; };
+		E73ED72F179A5D290062643B /* UINavigationItem+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED65B179A54710062643B /* UINavigationItem+KCServices.h */; };
+		E73ED730179A5D290062643B /* KCNavigationController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74B08FB1795083300B82BE7 /* KCNavigationController.h */; };
+		E73ED731179A5D350062643B /* KCURLConnectionThreadManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6B6179A5C840062643B /* KCURLConnectionThreadManager.h */; };
 		E74B08F7179507D200B82BE7 /* KCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08F6179507D200B82BE7 /* KCViewController.m */; };
 		E74B08FD1795083300B82BE7 /* KCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08FC1795083300B82BE7 /* KCNavigationController.m */; };
-		E74B090117950B0200B82BE7 /* KCNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B090017950B0200B82BE7 /* KCNavigationBar.m */; };
-		E74B090417950B7700B82BE7 /* UINavigationItem+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B090317950B7700B82BE7 /* UINavigationItem+KCServices.m */; };
-		E74FE0851793829E00085CF8 /* KCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0721793829E00085CF8 /* KCActionSheet.m */; };
-		E74FE0861793829E00085CF8 /* UIButton+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0751793829E00085CF8 /* UIButton+KCServices.m */; };
-		E74FE0871793829E00085CF8 /* UILabel+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0781793829E00085CF8 /* UILabel+KCServices.m */; };
-		E74FE0881793829E00085CF8 /* KCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE07C1793829E00085CF8 /* KCGeometry.m */; };
-		E74FE0891793829E00085CF8 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE07E1793829E00085CF8 /* UIView+Gesture.m */; };
-		E74FE08A1793829E00085CF8 /* UIView+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0801793829E00085CF8 /* UIView+KCServices.m */; };
-		E74FE08B1793829E00085CF8 /* UIView+QuartzCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0821793829E00085CF8 /* UIView+QuartzCore.m */; };
-		E74FE08C1793829E00085CF8 /* UIView+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0841793829E00085CF8 /* UIView+Transition.m */; };
-		E74FE08F179382CE00085CF8 /* UIScreen+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE08E179382CE00085CF8 /* UIScreen+KCServices.m */; };
-		E74FE0931793AF1800085CF8 /* NSNumber+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0921793AF1800085CF8 /* NSNumber+KCServices.m */; };
-		E74FE09A1793B6FF00085CF8 /* NSObject+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE0991793B6FF00085CF8 /* NSObject+KCServices.m */; };
-		E74FE09E1793C68900085CF8 /* NSString+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E74FE09D1793C68900085CF8 /* NSString+KCServices.m */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
-		E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA20B17765819001EDCCA /* NSArray+KCServices.m */; };
-		E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */; };
-		E76D1213178BC26A00A4469B /* KCURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E76D1212178BC26A00A4469B /* KCURLConnection.m */; };
-		E76D1218178BC41100A4469B /* KCURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E76D1217178BC41100A4469B /* KCURLConnectionDelegate.m */; };
-		E76D121B178BCAB200A4469B /* KCMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E76D121A178BCAB200A4469B /* KCMutableURLRequest.m */; };
-		E76D1221178BD7DB00A4469B /* KCHTTPError.m in Sources */ = {isa = PBXBuildFile; fileRef = E76D1220178BD7DB00A4469B /* KCHTTPError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,124 +110,158 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				E73A029917927F1F00DF1285 /* KCLog.h in CopyFiles */,
-				E73A029A17927F1F00DF1285 /* KCURLConnectionThreadManager.h in CopyFiles */,
-				E73A029B17927F1F00DF1285 /* KCURLConnectiontimerManager.h in CopyFiles */,
-				E73A029C17927F1F00DF1285 /* KCHTTPURLResponse.h in CopyFiles */,
-				E73A029D17927F1F00DF1285 /* KCURLConnectionDelegate.h in CopyFiles */,
-				E73A028D17927F0B00DF1285 /* NSDate+KCServices.h in CopyFiles */,
-				E73A028E17927F0B00DF1285 /* KCLocationManager.h in CopyFiles */,
-				E73A028F17927F0B00DF1285 /* KCErrorResponse.h in CopyFiles */,
-				E73A029017927F0B00DF1285 /* KCHTTPURLResponseHandler.h in CopyFiles */,
-				E73A029117927F0B00DF1285 /* KCHTTPError.h in CopyFiles */,
-				E73A029217927F0B00DF1285 /* KCMutableURLRequest.h in CopyFiles */,
-				E73A029317927F0B00DF1285 /* KCURLConnection.h in CopyFiles */,
-				E73844EA178A761100E8EA7A /* NSString+KCJSONSerialization.h in CopyFiles */,
-				E73844EB178A761100E8EA7A /* NSArray+KCJSONSerialization.h in CopyFiles */,
-				E73844EC178A761100E8EA7A /* NSDictionary+KCJSONSerialization.h in CopyFiles */,
-				E73844ED178A761100E8EA7A /* NSData+KCJSONSerialization.h in CopyFiles */,
-				E73844EE178A761100E8EA7A /* NSObject+KCJSONSerialization.h in CopyFiles */,
-				E73844EF178A761100E8EA7A /* NSDictionary+KCParseJSON.h in CopyFiles */,
-				E73844F0178A761100E8EA7A /* KCJSON.h in CopyFiles */,
-				E7384460178A036900E8EA7A /* KCError.h in CopyFiles */,
-				E7384461178A036900E8EA7A /* KCJSONError.h in CopyFiles */,
-				E7384462178A036900E8EA7A /* KCBlockHandler.h in CopyFiles */,
-				E7384463178A036900E8EA7A /* NSArray+Extension.h in CopyFiles */,
-				E7384464178A036900E8EA7A /* NSArray+KCServices.h in CopyFiles */,
+				E73ED731179A5D350062643B /* KCURLConnectionThreadManager.h in CopyFiles */,
+				E73ED721179A5D290062643B /* NSArray+Extension.h in CopyFiles */,
+				E73ED722179A5D290062643B /* NSArray+KCServices.h in CopyFiles */,
+				E73ED723179A5D290062643B /* NSDate+KCServices.h in CopyFiles */,
+				E73ED724179A5D290062643B /* NSObject+KCServices.h in CopyFiles */,
+				E73ED725179A5D290062643B /* KCHTTPError.h in CopyFiles */,
+				E73ED726179A5D290062643B /* KCHTTPURLResponse.h in CopyFiles */,
+				E73ED727179A5D290062643B /* KCHTTPURLResponseHandler.h in CopyFiles */,
+				E73ED728179A5D290062643B /* KCMutableURLRequest.h in CopyFiles */,
+				E73ED729179A5D290062643B /* KCURLConnection.h in CopyFiles */,
+				E73ED72A179A5D290062643B /* KCURLConnectionDelegate.h in CopyFiles */,
+				E73ED72B179A5D290062643B /* KCURLConnectiontimerManager.h in CopyFiles */,
+				E73ED72C179A5D290062643B /* UIImageView+KCServices.h in CopyFiles */,
+				E73ED72D179A5D290062643B /* KCModalNavigationBar.h in CopyFiles */,
+				E73ED72E179A5D290062643B /* KCNavigationBar.h in CopyFiles */,
+				E73ED72F179A5D290062643B /* UINavigationItem+KCServices.h in CopyFiles */,
+				E73ED730179A5D290062643B /* KCNavigationController.h in CopyFiles */,
+				E73ED702179A5D200062643B /* KCBlockHandler.h in CopyFiles */,
+				E73ED703179A5D200062643B /* KCError.h in CopyFiles */,
+				E73ED704179A5D200062643B /* KCErrorResponse.h in CopyFiles */,
+				E73ED705179A5D200062643B /* NSNumber+KCServices.h in CopyFiles */,
+				E73ED706179A5D200062643B /* NSString+KCServices.h in CopyFiles */,
+				E73ED707179A5D200062643B /* UIFont+KCServices.h in CopyFiles */,
+				E73ED708179A5D200062643B /* UIImage+KCServices.h in CopyFiles */,
+				E73ED709179A5D200062643B /* KCJSON.h in CopyFiles */,
+				E73ED70A179A5D200062643B /* KCJSONError.h in CopyFiles */,
+				E73ED70B179A5D200062643B /* NSArray+KCJSONSerialization.h in CopyFiles */,
+				E73ED70C179A5D200062643B /* NSData+KCJSONSerialization.h in CopyFiles */,
+				E73ED70D179A5D200062643B /* NSDictionary+KCJSONSerialization.h in CopyFiles */,
+				E73ED70E179A5D200062643B /* NSDictionary+KCParseJSON.h in CopyFiles */,
+				E73ED70F179A5D200062643B /* NSObject+KCJSONSerialization.h in CopyFiles */,
+				E73ED710179A5D200062643B /* NSString+KCJSONSerialization.h in CopyFiles */,
+				E73ED711179A5D200062643B /* KCUtility.h in CopyFiles */,
+				E73ED712179A5D200062643B /* KCLocationManager.h in CopyFiles */,
+				E73ED713179A5D200062643B /* UIScreen+KCServices.h in CopyFiles */,
+				E73ED714179A5D200062643B /* KCActionSheet.h in CopyFiles */,
+				E73ED715179A5D200062643B /* UIButton+KCServices.h in CopyFiles */,
+				E73ED716179A5D200062643B /* KCGradientButton.h in CopyFiles */,
+				E73ED717179A5D200062643B /* UILabel+KCServices.h in CopyFiles */,
+				E73ED718179A5D200062643B /* KCGeometry.h in CopyFiles */,
+				E73ED719179A5D200062643B /* KCView.h in CopyFiles */,
+				E73ED71A179A5D200062643B /* UIView+Gesture.h in CopyFiles */,
+				E73ED71B179A5D200062643B /* UIView+KCServices.h in CopyFiles */,
+				E73ED71C179A5D200062643B /* UIView+QuartzCore.h in CopyFiles */,
+				E73ED71D179A5D200062643B /* UIView+Transition.h in CopyFiles */,
+				E73ED71E179A5D200062643B /* KCLog.h in CopyFiles */,
+				E73ED71F179A5D200062643B /* KCNotifications.h in CopyFiles */,
+				E73ED720179A5D200062643B /* KCViewController.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E73843E01789E24800E8EA7A /* KCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCError.h; sourceTree = "<group>"; };
-		E73843E11789E24800E8EA7A /* KCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCError.m; sourceTree = "<group>"; };
-		E73843E31789F40D00E8EA7A /* KCJSONError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJSONError.h; sourceTree = "<group>"; };
-		E73843E41789F40D00E8EA7A /* KCJSONError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCJSONError.m; sourceTree = "<group>"; };
-		E73844C9178A4E8A00E8EA7A /* NSString+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KCJSONSerialization.h"; sourceTree = "<group>"; };
-		E73844CA178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KCJSONSerialization.m"; sourceTree = "<group>"; };
-		E73844CC178A559300E8EA7A /* NSArray+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KCJSONSerialization.h"; sourceTree = "<group>"; };
-		E73844CD178A559300E8EA7A /* NSArray+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KCJSONSerialization.m"; sourceTree = "<group>"; };
-		E73844CF178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KCJSONSerialization.h"; sourceTree = "<group>"; };
-		E73844D0178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KCJSONSerialization.m"; sourceTree = "<group>"; };
-		E73844D2178A5AC000E8EA7A /* NSData+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KCJSONSerialization.h"; sourceTree = "<group>"; };
-		E73844D3178A5AC100E8EA7A /* NSData+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+KCJSONSerialization.m"; sourceTree = "<group>"; };
-		E73844E2178A614100E8EA7A /* NSObject+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KCJSONSerialization.h"; sourceTree = "<group>"; };
-		E73844E3178A614100E8EA7A /* NSObject+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCJSONSerialization.m"; sourceTree = "<group>"; };
-		E73844E6178A62B800E8EA7A /* NSDictionary+KCParseJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KCParseJSON.h"; sourceTree = "<group>"; };
-		E73844E7178A62B900E8EA7A /* NSDictionary+KCParseJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KCParseJSON.m"; sourceTree = "<group>"; };
-		E73844E9178A757F00E8EA7A /* KCJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCJSON.h; sourceTree = "<group>"; };
-		E73A0286179273AA00DF1285 /* KCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLocationManager.h; sourceTree = "<group>"; };
-		E73A0287179273AA00DF1285 /* KCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCLocationManager.m; sourceTree = "<group>"; };
-		E73A028A1792790000DF1285 /* NSDate+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KCServices.h"; sourceTree = "<group>"; };
-		E73A028B1792790000DF1285 /* NSDate+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KCServices.m"; sourceTree = "<group>"; };
 		E73A02D31792866400DF1285 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E73A02D51792866900DF1285 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E73E354A178D0D6A0079DEFB /* KCHTTPURLResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPURLResponseHandler.h; sourceTree = "<group>"; };
-		E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPURLResponseHandler.m; sourceTree = "<group>"; };
-		E73E354E178D144D0079DEFB /* KCErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCErrorResponse.h; sourceTree = "<group>"; };
-		E73E354F178D144D0079DEFB /* KCErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCErrorResponse.m; sourceTree = "<group>"; };
-		E73E3551178D15BE0079DEFB /* KCHTTPURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPURLResponse.h; sourceTree = "<group>"; };
-		E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPURLResponse.m; sourceTree = "<group>"; };
-		E73E3555178D23420079DEFB /* KCURLConnectiontimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectiontimerManager.h; sourceTree = "<group>"; };
-		E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectiontimerManager.m; sourceTree = "<group>"; };
-		E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectionThreadManager.h; sourceTree = "<group>"; };
-		E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectionThreadManager.m; sourceTree = "<group>"; };
-		E74B08E71794FC0600B82BE7 /* KCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCView.h; sourceTree = "<group>"; };
-		E74B08E81794FC0600B82BE7 /* KCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCView.m; sourceTree = "<group>"; };
-		E74B08EC1794FE5200B82BE7 /* UIImageView+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KCServices.h"; sourceTree = "<group>"; };
-		E74B08ED1794FE5200B82BE7 /* UIImageView+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KCServices.m"; sourceTree = "<group>"; };
+		E73ED5B5179A53070062643B /* KCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLog.h; sourceTree = "<group>"; };
+		E73ED61A179A532F0062643B /* KCNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNotifications.h; sourceTree = "<group>"; };
+		E73ED64B179A54710062643B /* KCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCActionSheet.h; sourceTree = "<group>"; };
+		E73ED64C179A54710062643B /* KCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCActionSheet.m; sourceTree = "<group>"; };
+		E73ED64E179A54710062643B /* UIButton+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KCServices.h"; sourceTree = "<group>"; };
+		E73ED64F179A54710062643B /* UIButton+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KCServices.m"; sourceTree = "<group>"; };
+		E73ED651179A54710062643B /* UIImageView+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KCServices.h"; sourceTree = "<group>"; };
+		E73ED652179A54710062643B /* UIImageView+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KCServices.m"; sourceTree = "<group>"; };
+		E73ED654179A54710062643B /* UILabel+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KCServices.h"; sourceTree = "<group>"; };
+		E73ED655179A54710062643B /* UILabel+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KCServices.m"; sourceTree = "<group>"; };
+		E73ED657179A54710062643B /* KCModalNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCModalNavigationBar.h; sourceTree = "<group>"; };
+		E73ED658179A54710062643B /* KCModalNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCModalNavigationBar.m; sourceTree = "<group>"; };
+		E73ED659179A54710062643B /* KCNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNavigationBar.h; sourceTree = "<group>"; };
+		E73ED65A179A54710062643B /* KCNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNavigationBar.m; sourceTree = "<group>"; };
+		E73ED65B179A54710062643B /* UINavigationItem+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+KCServices.h"; sourceTree = "<group>"; };
+		E73ED65C179A54710062643B /* UINavigationItem+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+KCServices.m"; sourceTree = "<group>"; };
+		E73ED65E179A54710062643B /* KCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGeometry.h; sourceTree = "<group>"; };
+		E73ED65F179A54710062643B /* KCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeometry.m; sourceTree = "<group>"; };
+		E73ED660179A54710062643B /* KCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCView.h; sourceTree = "<group>"; };
+		E73ED661179A54710062643B /* KCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCView.m; sourceTree = "<group>"; };
+		E73ED662179A54710062643B /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
+		E73ED663179A54710062643B /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
+		E73ED664179A54710062643B /* UIView+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCServices.h"; sourceTree = "<group>"; };
+		E73ED665179A54710062643B /* UIView+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCServices.m"; sourceTree = "<group>"; };
+		E73ED666179A54710062643B /* UIView+QuartzCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuartzCore.h"; sourceTree = "<group>"; };
+		E73ED667179A54710062643B /* UIView+QuartzCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuartzCore.m"; sourceTree = "<group>"; };
+		E73ED668179A54710062643B /* UIView+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Transition.h"; sourceTree = "<group>"; };
+		E73ED669179A54710062643B /* UIView+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Transition.m"; sourceTree = "<group>"; };
+		E73ED677179A548A0062643B /* KCGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGradientButton.h; sourceTree = "<group>"; };
+		E73ED678179A548A0062643B /* KCGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGradientButton.m; sourceTree = "<group>"; };
+		E73ED685179A5C840062643B /* KCBlockHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCBlockHandler.h; sourceTree = "<group>"; };
+		E73ED686179A5C840062643B /* KCBlockHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCBlockHandler.m; sourceTree = "<group>"; };
+		E73ED689179A5C840062643B /* KCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCError.h; sourceTree = "<group>"; };
+		E73ED68A179A5C840062643B /* KCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCError.m; sourceTree = "<group>"; };
+		E73ED68C179A5C840062643B /* KCErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCErrorResponse.h; sourceTree = "<group>"; };
+		E73ED68D179A5C840062643B /* KCErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCErrorResponse.m; sourceTree = "<group>"; };
+		E73ED690179A5C840062643B /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		E73ED691179A5C840062643B /* NSArray+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KCServices.h"; sourceTree = "<group>"; };
+		E73ED692179A5C840062643B /* NSArray+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KCServices.m"; sourceTree = "<group>"; };
+		E73ED694179A5C840062643B /* NSDate+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KCServices.h"; sourceTree = "<group>"; };
+		E73ED695179A5C840062643B /* NSDate+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KCServices.m"; sourceTree = "<group>"; };
+		E73ED697179A5C840062643B /* NSNumber+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+KCServices.h"; sourceTree = "<group>"; };
+		E73ED698179A5C840062643B /* NSNumber+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+KCServices.m"; sourceTree = "<group>"; };
+		E73ED69A179A5C840062643B /* NSObject+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KCServices.h"; sourceTree = "<group>"; };
+		E73ED69B179A5C840062643B /* NSObject+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCServices.m"; sourceTree = "<group>"; };
+		E73ED69D179A5C840062643B /* NSString+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KCServices.h"; sourceTree = "<group>"; };
+		E73ED69E179A5C840062643B /* NSString+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KCServices.m"; sourceTree = "<group>"; };
+		E73ED6A0179A5C840062643B /* UIFont+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+KCServices.h"; sourceTree = "<group>"; };
+		E73ED6A1179A5C840062643B /* UIFont+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+KCServices.m"; sourceTree = "<group>"; };
+		E73ED6A4179A5C840062643B /* KCHTTPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPError.h; sourceTree = "<group>"; };
+		E73ED6A5179A5C840062643B /* KCHTTPError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPError.m; sourceTree = "<group>"; };
+		E73ED6A7179A5C840062643B /* KCHTTPURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPURLResponse.h; sourceTree = "<group>"; };
+		E73ED6A8179A5C840062643B /* KCHTTPURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPURLResponse.m; sourceTree = "<group>"; };
+		E73ED6AA179A5C840062643B /* KCHTTPURLResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPURLResponseHandler.h; sourceTree = "<group>"; };
+		E73ED6AB179A5C840062643B /* KCHTTPURLResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPURLResponseHandler.m; sourceTree = "<group>"; };
+		E73ED6AD179A5C840062643B /* KCMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMutableURLRequest.h; sourceTree = "<group>"; };
+		E73ED6AE179A5C840062643B /* KCMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMutableURLRequest.m; sourceTree = "<group>"; };
+		E73ED6B0179A5C840062643B /* KCURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnection.h; sourceTree = "<group>"; };
+		E73ED6B1179A5C840062643B /* KCURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnection.m; sourceTree = "<group>"; };
+		E73ED6B3179A5C840062643B /* KCURLConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectionDelegate.h; sourceTree = "<group>"; };
+		E73ED6B4179A5C840062643B /* KCURLConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectionDelegate.m; sourceTree = "<group>"; };
+		E73ED6B6179A5C840062643B /* KCURLConnectionThreadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectionThreadManager.h; sourceTree = "<group>"; };
+		E73ED6B7179A5C840062643B /* KCURLConnectionThreadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectionThreadManager.m; sourceTree = "<group>"; };
+		E73ED6B9179A5C840062643B /* KCURLConnectiontimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectiontimerManager.h; sourceTree = "<group>"; };
+		E73ED6BA179A5C840062643B /* KCURLConnectiontimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectiontimerManager.m; sourceTree = "<group>"; };
+		E73ED6BC179A5C840062643B /* UIImage+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KCServices.h"; sourceTree = "<group>"; };
+		E73ED6BD179A5C840062643B /* UIImage+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KCServices.m"; sourceTree = "<group>"; };
+		E73ED6BF179A5C840062643B /* KCJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJSON.h; sourceTree = "<group>"; };
+		E73ED6C0179A5C840062643B /* KCJSONError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJSONError.h; sourceTree = "<group>"; };
+		E73ED6C1179A5C840062643B /* KCJSONError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCJSONError.m; sourceTree = "<group>"; };
+		E73ED6C2179A5C840062643B /* NSArray+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KCJSONSerialization.h"; sourceTree = "<group>"; };
+		E73ED6C3179A5C840062643B /* NSArray+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KCJSONSerialization.m"; sourceTree = "<group>"; };
+		E73ED6C4179A5C840062643B /* NSData+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KCJSONSerialization.h"; sourceTree = "<group>"; };
+		E73ED6C5179A5C840062643B /* NSData+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+KCJSONSerialization.m"; sourceTree = "<group>"; };
+		E73ED6C6179A5C840062643B /* NSDictionary+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KCJSONSerialization.h"; sourceTree = "<group>"; };
+		E73ED6C7179A5C840062643B /* NSDictionary+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KCJSONSerialization.m"; sourceTree = "<group>"; };
+		E73ED6C8179A5C840062643B /* NSDictionary+KCParseJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KCParseJSON.h"; sourceTree = "<group>"; };
+		E73ED6C9179A5C840062643B /* NSDictionary+KCParseJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KCParseJSON.m"; sourceTree = "<group>"; };
+		E73ED6CA179A5C840062643B /* NSObject+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KCJSONSerialization.h"; sourceTree = "<group>"; };
+		E73ED6CB179A5C840062643B /* NSObject+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCJSONSerialization.m"; sourceTree = "<group>"; };
+		E73ED6CC179A5C840062643B /* NSString+KCJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KCJSONSerialization.h"; sourceTree = "<group>"; };
+		E73ED6CD179A5C840062643B /* NSString+KCJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KCJSONSerialization.m"; sourceTree = "<group>"; };
+		E73ED6CE179A5C840062643B /* KCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCUtility.h; sourceTree = "<group>"; };
+		E73ED6D0179A5C840062643B /* KCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLocationManager.h; sourceTree = "<group>"; };
+		E73ED6D1179A5C840062643B /* KCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCLocationManager.m; sourceTree = "<group>"; };
+		E73ED6D3179A5C840062643B /* UIScreen+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+KCServices.h"; sourceTree = "<group>"; };
+		E73ED6D4179A5C840062643B /* UIScreen+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+KCServices.m"; sourceTree = "<group>"; };
 		E74B08F5179507D200B82BE7 /* KCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCViewController.h; sourceTree = "<group>"; };
 		E74B08F6179507D200B82BE7 /* KCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCViewController.m; sourceTree = "<group>"; };
 		E74B08FB1795083300B82BE7 /* KCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNavigationController.h; sourceTree = "<group>"; };
 		E74B08FC1795083300B82BE7 /* KCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNavigationController.m; sourceTree = "<group>"; };
-		E74B08FF17950B0200B82BE7 /* KCNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNavigationBar.h; sourceTree = "<group>"; };
-		E74B090017950B0200B82BE7 /* KCNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNavigationBar.m; sourceTree = "<group>"; };
-		E74B090217950B7700B82BE7 /* UINavigationItem+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+KCServices.h"; sourceTree = "<group>"; };
-		E74B090317950B7700B82BE7 /* UINavigationItem+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+KCServices.m"; sourceTree = "<group>"; };
-		E74FE0711793829E00085CF8 /* KCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCActionSheet.h; sourceTree = "<group>"; };
-		E74FE0721793829E00085CF8 /* KCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCActionSheet.m; sourceTree = "<group>"; };
-		E74FE0741793829E00085CF8 /* UIButton+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KCServices.h"; sourceTree = "<group>"; };
-		E74FE0751793829E00085CF8 /* UIButton+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KCServices.m"; sourceTree = "<group>"; };
-		E74FE0771793829E00085CF8 /* UILabel+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KCServices.h"; sourceTree = "<group>"; };
-		E74FE0781793829E00085CF8 /* UILabel+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KCServices.m"; sourceTree = "<group>"; };
-		E74FE07B1793829E00085CF8 /* KCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGeometry.h; sourceTree = "<group>"; };
-		E74FE07C1793829E00085CF8 /* KCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeometry.m; sourceTree = "<group>"; };
-		E74FE07D1793829E00085CF8 /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
-		E74FE07E1793829E00085CF8 /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
-		E74FE07F1793829E00085CF8 /* UIView+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCServices.h"; sourceTree = "<group>"; };
-		E74FE0801793829E00085CF8 /* UIView+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCServices.m"; sourceTree = "<group>"; };
-		E74FE0811793829E00085CF8 /* UIView+QuartzCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuartzCore.h"; sourceTree = "<group>"; };
-		E74FE0821793829E00085CF8 /* UIView+QuartzCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuartzCore.m"; sourceTree = "<group>"; };
-		E74FE0831793829E00085CF8 /* UIView+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Transition.h"; sourceTree = "<group>"; };
-		E74FE0841793829E00085CF8 /* UIView+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Transition.m"; sourceTree = "<group>"; };
-		E74FE08D179382CE00085CF8 /* UIScreen+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+KCServices.h"; sourceTree = "<group>"; };
-		E74FE08E179382CE00085CF8 /* UIScreen+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+KCServices.m"; sourceTree = "<group>"; };
-		E74FE0911793AF1800085CF8 /* NSNumber+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+KCServices.h"; sourceTree = "<group>"; };
-		E74FE0921793AF1800085CF8 /* NSNumber+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+KCServices.m"; sourceTree = "<group>"; };
-		E74FE0981793B6FF00085CF8 /* NSObject+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KCServices.h"; sourceTree = "<group>"; };
-		E74FE0991793B6FF00085CF8 /* NSObject+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCServices.m"; sourceTree = "<group>"; };
-		E74FE09C1793C68900085CF8 /* NSString+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KCServices.h"; sourceTree = "<group>"; };
-		E74FE09D1793C68900085CF8 /* NSString+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KCServices.m"; sourceTree = "<group>"; };
 		E753F0AB179512AF00E4EE74 /* navigation_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_header.png; sourceTree = "<group>"; };
 		E753F0AC179512AF00E4EE74 /* navigation_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_header@2x.png"; sourceTree = "<group>"; };
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
-		E76BA20A17765819001EDCCA /* NSArray+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KCServices.h"; sourceTree = "<group>"; };
-		E76BA20B17765819001EDCCA /* NSArray+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KCServices.m"; sourceTree = "<group>"; };
-		E76BA20D1776B784001EDCCA /* NSArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
-		E76BA20F1776BDA4001EDCCA /* KCBlockHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCBlockHandler.h; sourceTree = "<group>"; };
-		E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCBlockHandler.m; sourceTree = "<group>"; };
-		E76D1211178BC26A00A4469B /* KCURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnection.h; sourceTree = "<group>"; };
-		E76D1212178BC26A00A4469B /* KCURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnection.m; sourceTree = "<group>"; };
-		E76D1216178BC41100A4469B /* KCURLConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLConnectionDelegate.h; sourceTree = "<group>"; };
-		E76D1217178BC41100A4469B /* KCURLConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLConnectionDelegate.m; sourceTree = "<group>"; };
-		E76D1219178BCAB200A4469B /* KCMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMutableURLRequest.h; sourceTree = "<group>"; };
-		E76D121A178BCAB200A4469B /* KCMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMutableURLRequest.m; sourceTree = "<group>"; };
-		E76D121D178BD59C00A4469B /* KCLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCLog.h; sourceTree = "<group>"; };
-		E76D121F178BD7DB00A4469B /* KCHTTPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPError.h; sourceTree = "<group>"; };
-		E76D1220178BD7DB00A4469B /* KCHTTPError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,85 +278,375 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E73843DE1789E23600E8EA7A /* KCError */ = {
+		E73ED5A9179A4CD80062643B /* Modal */ = {
 			isa = PBXGroup;
 			children = (
-				E73843E01789E24800E8EA7A /* KCError.h */,
-				E73843E11789E24800E8EA7A /* KCError.m */,
+				E73ED5AC179A4D090062643B /* Entity */,
+				E73ED5AB179A4CF60062643B /* Archive */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		E73ED5AB179A4CF60062643B /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		E73ED5AC179A4D090062643B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E73ED5B4179A53070062643B /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED5B5179A53070062643B /* KCLog.h */,
+				E73ED61A179A532F0062643B /* KCNotifications.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		E73ED649179A54710062643B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED64A179A54710062643B /* ActionSheet */,
+				E73ED64D179A54710062643B /* Button */,
+				E73ED650179A54710062643B /* ImageView */,
+				E73ED653179A54710062643B /* Label */,
+				E73ED656179A54710062643B /* NavigationBar */,
+				E73ED65D179A54710062643B /* View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E73ED64A179A54710062643B /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED64B179A54710062643B /* KCActionSheet.h */,
+				E73ED64C179A54710062643B /* KCActionSheet.m */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		E73ED64D179A54710062643B /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED64E179A54710062643B /* UIButton+KCServices.h */,
+				E73ED64F179A54710062643B /* UIButton+KCServices.m */,
+				E73ED677179A548A0062643B /* KCGradientButton.h */,
+				E73ED678179A548A0062643B /* KCGradientButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		E73ED650179A54710062643B /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED651179A54710062643B /* UIImageView+KCServices.h */,
+				E73ED652179A54710062643B /* UIImageView+KCServices.m */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		E73ED653179A54710062643B /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED654179A54710062643B /* UILabel+KCServices.h */,
+				E73ED655179A54710062643B /* UILabel+KCServices.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		E73ED656179A54710062643B /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED657179A54710062643B /* KCModalNavigationBar.h */,
+				E73ED658179A54710062643B /* KCModalNavigationBar.m */,
+				E73ED659179A54710062643B /* KCNavigationBar.h */,
+				E73ED65A179A54710062643B /* KCNavigationBar.m */,
+				E73ED65B179A54710062643B /* UINavigationItem+KCServices.h */,
+				E73ED65C179A54710062643B /* UINavigationItem+KCServices.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		E73ED65D179A54710062643B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED65E179A54710062643B /* KCGeometry.h */,
+				E73ED65F179A54710062643B /* KCGeometry.m */,
+				E73ED660179A54710062643B /* KCView.h */,
+				E73ED661179A54710062643B /* KCView.m */,
+				E73ED662179A54710062643B /* UIView+Gesture.h */,
+				E73ED663179A54710062643B /* UIView+Gesture.m */,
+				E73ED664179A54710062643B /* UIView+KCServices.h */,
+				E73ED665179A54710062643B /* UIView+KCServices.m */,
+				E73ED666179A54710062643B /* UIView+QuartzCore.h */,
+				E73ED667179A54710062643B /* UIView+QuartzCore.m */,
+				E73ED668179A54710062643B /* UIView+Transition.h */,
+				E73ED669179A54710062643B /* UIView+Transition.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E73ED683179A5C840062643B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED684179A5C840062643B /* BlockHandler */,
+				E73ED687179A5C840062643B /* Error */,
+				E73ED68B179A5C840062643B /* ErrorBundleResponse */,
+				E73ED68E179A5C840062643B /* Extension */,
+				E73ED6A2179A5C840062643B /* HTTP */,
+				E73ED6BB179A5C840062643B /* Image */,
+				E73ED6BE179A5C840062643B /* JSON */,
+				E73ED6CE179A5C840062643B /* KCUtility.h */,
+				E73ED6CF179A5C840062643B /* Location */,
+				E73ED6D2179A5C840062643B /* UIScreen */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E73ED684179A5C840062643B /* BlockHandler */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED685179A5C840062643B /* KCBlockHandler.h */,
+				E73ED686179A5C840062643B /* KCBlockHandler.m */,
+			);
+			path = BlockHandler;
+			sourceTree = "<group>";
+		};
+		E73ED687179A5C840062643B /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED688179A5C840062643B /* KCError */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		E73ED688179A5C840062643B /* KCError */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED689179A5C840062643B /* KCError.h */,
+				E73ED68A179A5C840062643B /* KCError.m */,
 			);
 			path = KCError;
 			sourceTree = "<group>";
 		};
-		E73A02841792738400DF1285 /* KCLocation */ = {
+		E73ED68B179A5C840062643B /* ErrorBundleResponse */ = {
 			isa = PBXGroup;
 			children = (
-				E73A0286179273AA00DF1285 /* KCLocationManager.h */,
-				E73A0287179273AA00DF1285 /* KCLocationManager.m */,
+				E73ED68C179A5C840062643B /* KCErrorResponse.h */,
+				E73ED68D179A5C840062643B /* KCErrorResponse.m */,
 			);
-			path = KCLocation;
+			path = ErrorBundleResponse;
 			sourceTree = "<group>";
 		};
-		E73A0289179278E700DF1285 /* KCDate */ = {
+		E73ED68E179A5C840062643B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E73A028A1792790000DF1285 /* NSDate+KCServices.h */,
-				E73A028B1792790000DF1285 /* NSDate+KCServices.m */,
+				E73ED68F179A5C840062643B /* NSArray */,
+				E73ED693179A5C840062643B /* NSDate */,
+				E73ED696179A5C840062643B /* NSNumber */,
+				E73ED699179A5C840062643B /* NSObject */,
+				E73ED69C179A5C840062643B /* NSString */,
+				E73ED69F179A5C840062643B /* UIFont */,
 			);
-			path = KCDate;
+			path = Extension;
 			sourceTree = "<group>";
 		};
-		E73E3548178D0D330079DEFB /* KCHTTPURLResponse */ = {
+		E73ED68F179A5C840062643B /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
-				E73E3551178D15BE0079DEFB /* KCHTTPURLResponse.h */,
-				E73E3552178D15BE0079DEFB /* KCHTTPURLResponse.m */,
+				E73ED690179A5C840062643B /* NSArray+Extension.h */,
+				E73ED691179A5C840062643B /* NSArray+KCServices.h */,
+				E73ED692179A5C840062643B /* NSArray+KCServices.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		E73ED693179A5C840062643B /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED694179A5C840062643B /* NSDate+KCServices.h */,
+				E73ED695179A5C840062643B /* NSDate+KCServices.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		E73ED696179A5C840062643B /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED697179A5C840062643B /* NSNumber+KCServices.h */,
+				E73ED698179A5C840062643B /* NSNumber+KCServices.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		E73ED699179A5C840062643B /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED69A179A5C840062643B /* NSObject+KCServices.h */,
+				E73ED69B179A5C840062643B /* NSObject+KCServices.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		E73ED69C179A5C840062643B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED69D179A5C840062643B /* NSString+KCServices.h */,
+				E73ED69E179A5C840062643B /* NSString+KCServices.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		E73ED69F179A5C840062643B /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED6A0179A5C840062643B /* UIFont+KCServices.h */,
+				E73ED6A1179A5C840062643B /* UIFont+KCServices.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		E73ED6A2179A5C840062643B /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED6A3179A5C840062643B /* KCHTTPError */,
+				E73ED6A6179A5C840062643B /* KCHTTPURLResponse */,
+				E73ED6A9179A5C840062643B /* KCHTTPURLResponseHandler */,
+				E73ED6AC179A5C840062643B /* KCMutableURLRequest */,
+				E73ED6AF179A5C840062643B /* KCURLConnection */,
+				E73ED6B2179A5C840062643B /* KCURLConnectionDelegate */,
+				E73ED6B5179A5C840062643B /* KCURLConnectionThreadManager */,
+				E73ED6B8179A5C840062643B /* KCURLConnectionTimerManager */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		E73ED6A3179A5C840062643B /* KCHTTPError */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED6A4179A5C840062643B /* KCHTTPError.h */,
+				E73ED6A5179A5C840062643B /* KCHTTPError.m */,
+			);
+			path = KCHTTPError;
+			sourceTree = "<group>";
+		};
+		E73ED6A6179A5C840062643B /* KCHTTPURLResponse */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED6A7179A5C840062643B /* KCHTTPURLResponse.h */,
+				E73ED6A8179A5C840062643B /* KCHTTPURLResponse.m */,
 			);
 			path = KCHTTPURLResponse;
 			sourceTree = "<group>";
 		};
-		E73E3549178D0D330079DEFB /* KCHTTPURLResponseHandler */ = {
+		E73ED6A9179A5C840062643B /* KCHTTPURLResponseHandler */ = {
 			isa = PBXGroup;
 			children = (
-				E73E354A178D0D6A0079DEFB /* KCHTTPURLResponseHandler.h */,
-				E73E354B178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m */,
+				E73ED6AA179A5C840062643B /* KCHTTPURLResponseHandler.h */,
+				E73ED6AB179A5C840062643B /* KCHTTPURLResponseHandler.m */,
 			);
 			path = KCHTTPURLResponseHandler;
 			sourceTree = "<group>";
 		};
-		E73E354D178D14370079DEFB /* KCErrorResponse */ = {
+		E73ED6AC179A5C840062643B /* KCMutableURLRequest */ = {
 			isa = PBXGroup;
 			children = (
-				E73E354E178D144D0079DEFB /* KCErrorResponse.h */,
-				E73E354F178D144D0079DEFB /* KCErrorResponse.m */,
+				E73ED6AD179A5C840062643B /* KCMutableURLRequest.h */,
+				E73ED6AE179A5C840062643B /* KCMutableURLRequest.m */,
 			);
-			path = KCErrorResponse;
+			path = KCMutableURLRequest;
 			sourceTree = "<group>";
 		};
-		E73E3554178D23280079DEFB /* KCURLConnectionTimerManager */ = {
+		E73ED6AF179A5C840062643B /* KCURLConnection */ = {
 			isa = PBXGroup;
 			children = (
-				E73E3555178D23420079DEFB /* KCURLConnectiontimerManager.h */,
-				E73E3556178D23420079DEFB /* KCURLConnectiontimerManager.m */,
+				E73ED6B0179A5C840062643B /* KCURLConnection.h */,
+				E73ED6B1179A5C840062643B /* KCURLConnection.m */,
 			);
-			path = KCURLConnectionTimerManager;
+			path = KCURLConnection;
 			sourceTree = "<group>";
 		};
-		E73E3558178D25750079DEFB /* KCURLConnectionThreadManager */ = {
+		E73ED6B2179A5C840062643B /* KCURLConnectionDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				E73E3559178D259A0079DEFB /* KCURLConnectionThreadManager.h */,
-				E73E355A178D259A0079DEFB /* KCURLConnectionThreadManager.m */,
+				E73ED6B3179A5C840062643B /* KCURLConnectionDelegate.h */,
+				E73ED6B4179A5C840062643B /* KCURLConnectionDelegate.m */,
+			);
+			path = KCURLConnectionDelegate;
+			sourceTree = "<group>";
+		};
+		E73ED6B5179A5C840062643B /* KCURLConnectionThreadManager */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED6B6179A5C840062643B /* KCURLConnectionThreadManager.h */,
+				E73ED6B7179A5C840062643B /* KCURLConnectionThreadManager.m */,
 			);
 			path = KCURLConnectionThreadManager;
 			sourceTree = "<group>";
 		};
-		E74B08EB1794FE3600B82BE7 /* KCImageView */ = {
+		E73ED6B8179A5C840062643B /* KCURLConnectionTimerManager */ = {
 			isa = PBXGroup;
 			children = (
-				E74B08EC1794FE5200B82BE7 /* UIImageView+KCServices.h */,
-				E74B08ED1794FE5200B82BE7 /* UIImageView+KCServices.m */,
+				E73ED6B9179A5C840062643B /* KCURLConnectiontimerManager.h */,
+				E73ED6BA179A5C840062643B /* KCURLConnectiontimerManager.m */,
 			);
-			path = KCImageView;
+			path = KCURLConnectionTimerManager;
+			sourceTree = "<group>";
+		};
+		E73ED6BB179A5C840062643B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED6BC179A5C840062643B /* UIImage+KCServices.h */,
+				E73ED6BD179A5C840062643B /* UIImage+KCServices.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		E73ED6BE179A5C840062643B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED6BF179A5C840062643B /* KCJSON.h */,
+				E73ED6C0179A5C840062643B /* KCJSONError.h */,
+				E73ED6C1179A5C840062643B /* KCJSONError.m */,
+				E73ED6C2179A5C840062643B /* NSArray+KCJSONSerialization.h */,
+				E73ED6C3179A5C840062643B /* NSArray+KCJSONSerialization.m */,
+				E73ED6C4179A5C840062643B /* NSData+KCJSONSerialization.h */,
+				E73ED6C5179A5C840062643B /* NSData+KCJSONSerialization.m */,
+				E73ED6C6179A5C840062643B /* NSDictionary+KCJSONSerialization.h */,
+				E73ED6C7179A5C840062643B /* NSDictionary+KCJSONSerialization.m */,
+				E73ED6C8179A5C840062643B /* NSDictionary+KCParseJSON.h */,
+				E73ED6C9179A5C840062643B /* NSDictionary+KCParseJSON.m */,
+				E73ED6CA179A5C840062643B /* NSObject+KCJSONSerialization.h */,
+				E73ED6CB179A5C840062643B /* NSObject+KCJSONSerialization.m */,
+				E73ED6CC179A5C840062643B /* NSString+KCJSONSerialization.h */,
+				E73ED6CD179A5C840062643B /* NSString+KCJSONSerialization.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		E73ED6CF179A5C840062643B /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED6D0179A5C840062643B /* KCLocationManager.h */,
+				E73ED6D1179A5C840062643B /* KCLocationManager.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		E73ED6D2179A5C840062643B /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E73ED6D3179A5C840062643B /* UIScreen+KCServices.h */,
+				E73ED6D4179A5C840062643B /* UIScreen+KCServices.m */,
+			);
+			path = UIScreen;
 			sourceTree = "<group>";
 		};
 		E74B08EF179502B300B82BE7 /* Controller */ = {
@@ -324,17 +676,6 @@
 			path = KCViewController;
 			sourceTree = "<group>";
 		};
-		E74B08FE17950AE600B82BE7 /* NavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				E74B08FF17950B0200B82BE7 /* KCNavigationBar.h */,
-				E74B090017950B0200B82BE7 /* KCNavigationBar.m */,
-				E74B090217950B7700B82BE7 /* UINavigationItem+KCServices.h */,
-				E74B090317950B7700B82BE7 /* UINavigationItem+KCServices.m */,
-			);
-			path = NavigationBar;
-			sourceTree = "<group>";
-		};
 		E74B09051795123300B82BE7 /* Bundle */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,102 +690,6 @@
 				E753F0AA179512AF00E4EE74 /* Navigation */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		E74FE06F1793829E00085CF8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E74B08FE17950AE600B82BE7 /* NavigationBar */,
-				E74B08EB1794FE3600B82BE7 /* KCImageView */,
-				E74FE0701793829E00085CF8 /* KCActionSheet */,
-				E74FE0731793829E00085CF8 /* KCButton */,
-				E74FE0761793829E00085CF8 /* KCLabel */,
-				E74FE0791793829E00085CF8 /* KCScreen */,
-				E74FE07A1793829E00085CF8 /* KCView */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E74FE0701793829E00085CF8 /* KCActionSheet */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE0711793829E00085CF8 /* KCActionSheet.h */,
-				E74FE0721793829E00085CF8 /* KCActionSheet.m */,
-			);
-			path = KCActionSheet;
-			sourceTree = "<group>";
-		};
-		E74FE0731793829E00085CF8 /* KCButton */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE0741793829E00085CF8 /* UIButton+KCServices.h */,
-				E74FE0751793829E00085CF8 /* UIButton+KCServices.m */,
-			);
-			path = KCButton;
-			sourceTree = "<group>";
-		};
-		E74FE0761793829E00085CF8 /* KCLabel */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE0771793829E00085CF8 /* UILabel+KCServices.h */,
-				E74FE0781793829E00085CF8 /* UILabel+KCServices.m */,
-			);
-			path = KCLabel;
-			sourceTree = "<group>";
-		};
-		E74FE0791793829E00085CF8 /* KCScreen */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE08D179382CE00085CF8 /* UIScreen+KCServices.h */,
-				E74FE08E179382CE00085CF8 /* UIScreen+KCServices.m */,
-			);
-			path = KCScreen;
-			sourceTree = "<group>";
-		};
-		E74FE07A1793829E00085CF8 /* KCView */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE07B1793829E00085CF8 /* KCGeometry.h */,
-				E74FE07C1793829E00085CF8 /* KCGeometry.m */,
-				E74FE07D1793829E00085CF8 /* UIView+Gesture.h */,
-				E74FE07E1793829E00085CF8 /* UIView+Gesture.m */,
-				E74FE07F1793829E00085CF8 /* UIView+KCServices.h */,
-				E74FE0801793829E00085CF8 /* UIView+KCServices.m */,
-				E74FE0811793829E00085CF8 /* UIView+QuartzCore.h */,
-				E74FE0821793829E00085CF8 /* UIView+QuartzCore.m */,
-				E74FE0831793829E00085CF8 /* UIView+Transition.h */,
-				E74FE0841793829E00085CF8 /* UIView+Transition.m */,
-				E74B08E71794FC0600B82BE7 /* KCView.h */,
-				E74B08E81794FC0600B82BE7 /* KCView.m */,
-			);
-			path = KCView;
-			sourceTree = "<group>";
-		};
-		E74FE0901793AD5B00085CF8 /* KCNumber */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE0911793AF1800085CF8 /* NSNumber+KCServices.h */,
-				E74FE0921793AF1800085CF8 /* NSNumber+KCServices.m */,
-			);
-			path = KCNumber;
-			sourceTree = "<group>";
-		};
-		E74FE0971793B6EA00085CF8 /* KCObject */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE0981793B6FF00085CF8 /* NSObject+KCServices.h */,
-				E74FE0991793B6FF00085CF8 /* NSObject+KCServices.m */,
-			);
-			path = KCObject;
-			sourceTree = "<group>";
-		};
-		E74FE09B1793C67700085CF8 /* KCString */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE09C1793C68900085CF8 /* NSString+KCServices.h */,
-				E74FE09D1793C68900085CF8 /* NSString+KCServices.m */,
-			);
-			path = KCString;
 			sourceTree = "<group>";
 		};
 		E753F0AA179512AF00E4EE74 /* Navigation */ = {
@@ -487,9 +732,11 @@
 		E76BA1F4177653AF001EDCCA /* KCLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				E73ED683179A5C840062643B /* Utility */,
+				E73ED649179A54710062643B /* View */,
+				E73ED5B4179A53070062643B /* Global */,
+				E73ED5A9179A4CD80062643B /* Modal */,
 				E74B08EF179502B300B82BE7 /* Controller */,
-				E74FE06F1793829E00085CF8 /* View */,
-				E76BA20517765604001EDCCA /* General */,
 				E76BA1F5177653AF001EDCCA /* Supporting Files */,
 			);
 			path = KCLibrary;
@@ -501,126 +748,6 @@
 				E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E76BA20517765604001EDCCA /* General */ = {
-			isa = PBXGroup;
-			children = (
-				E74FE09B1793C67700085CF8 /* KCString */,
-				E74FE0971793B6EA00085CF8 /* KCObject */,
-				E74FE0901793AD5B00085CF8 /* KCNumber */,
-				E73A0289179278E700DF1285 /* KCDate */,
-				E73A02841792738400DF1285 /* KCLocation */,
-				E73E354D178D14370079DEFB /* KCErrorResponse */,
-				E76D121C178BD57C00A4469B /* KCGlobal */,
-				E76D120E178BC1E300A4469B /* KCHTTP */,
-				E73843DE1789E23600E8EA7A /* KCError */,
-				E772EA761789DD3900C164EF /* KCJSON */,
-				E76BA20E1776BD87001EDCCA /* KCBlockHandler */,
-				E76BA209177657B4001EDCCA /* KCArray */,
-			);
-			path = General;
-			sourceTree = "<group>";
-		};
-		E76BA209177657B4001EDCCA /* KCArray */ = {
-			isa = PBXGroup;
-			children = (
-				E76BA20D1776B784001EDCCA /* NSArray+Extension.h */,
-				E76BA20A17765819001EDCCA /* NSArray+KCServices.h */,
-				E76BA20B17765819001EDCCA /* NSArray+KCServices.m */,
-			);
-			path = KCArray;
-			sourceTree = "<group>";
-		};
-		E76BA20E1776BD87001EDCCA /* KCBlockHandler */ = {
-			isa = PBXGroup;
-			children = (
-				E76BA20F1776BDA4001EDCCA /* KCBlockHandler.h */,
-				E76BA2101776BDA5001EDCCA /* KCBlockHandler.m */,
-			);
-			path = KCBlockHandler;
-			sourceTree = "<group>";
-		};
-		E76D120E178BC1E300A4469B /* KCHTTP */ = {
-			isa = PBXGroup;
-			children = (
-				E73E3558178D25750079DEFB /* KCURLConnectionThreadManager */,
-				E73E3554178D23280079DEFB /* KCURLConnectionTimerManager */,
-				E73E3548178D0D330079DEFB /* KCHTTPURLResponse */,
-				E73E3549178D0D330079DEFB /* KCHTTPURLResponseHandler */,
-				E76D121E178BD7C500A4469B /* KCHTTPError */,
-				E76D1214178BC40000A4469B /* KCMutableURLRequest */,
-				E76D1215178BC40000A4469B /* KCURLConnectionDelegate */,
-				E76D120F178BC1E300A4469B /* KCURLConnection */,
-			);
-			path = KCHTTP;
-			sourceTree = "<group>";
-		};
-		E76D120F178BC1E300A4469B /* KCURLConnection */ = {
-			isa = PBXGroup;
-			children = (
-				E76D1211178BC26A00A4469B /* KCURLConnection.h */,
-				E76D1212178BC26A00A4469B /* KCURLConnection.m */,
-			);
-			path = KCURLConnection;
-			sourceTree = "<group>";
-		};
-		E76D1214178BC40000A4469B /* KCMutableURLRequest */ = {
-			isa = PBXGroup;
-			children = (
-				E76D1219178BCAB200A4469B /* KCMutableURLRequest.h */,
-				E76D121A178BCAB200A4469B /* KCMutableURLRequest.m */,
-			);
-			path = KCMutableURLRequest;
-			sourceTree = "<group>";
-		};
-		E76D1215178BC40000A4469B /* KCURLConnectionDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				E76D1216178BC41100A4469B /* KCURLConnectionDelegate.h */,
-				E76D1217178BC41100A4469B /* KCURLConnectionDelegate.m */,
-			);
-			path = KCURLConnectionDelegate;
-			sourceTree = "<group>";
-		};
-		E76D121C178BD57C00A4469B /* KCGlobal */ = {
-			isa = PBXGroup;
-			children = (
-				E76D121D178BD59C00A4469B /* KCLog.h */,
-			);
-			path = KCGlobal;
-			sourceTree = "<group>";
-		};
-		E76D121E178BD7C500A4469B /* KCHTTPError */ = {
-			isa = PBXGroup;
-			children = (
-				E76D121F178BD7DB00A4469B /* KCHTTPError.h */,
-				E76D1220178BD7DB00A4469B /* KCHTTPError.m */,
-			);
-			path = KCHTTPError;
-			sourceTree = "<group>";
-		};
-		E772EA761789DD3900C164EF /* KCJSON */ = {
-			isa = PBXGroup;
-			children = (
-				E73843E31789F40D00E8EA7A /* KCJSONError.h */,
-				E73843E41789F40D00E8EA7A /* KCJSONError.m */,
-				E73844C9178A4E8A00E8EA7A /* NSString+KCJSONSerialization.h */,
-				E73844CA178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m */,
-				E73844CC178A559300E8EA7A /* NSArray+KCJSONSerialization.h */,
-				E73844CD178A559300E8EA7A /* NSArray+KCJSONSerialization.m */,
-				E73844CF178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.h */,
-				E73844D0178A578F00E8EA7A /* NSDictionary+KCJSONSerialization.m */,
-				E73844D2178A5AC000E8EA7A /* NSData+KCJSONSerialization.h */,
-				E73844D3178A5AC100E8EA7A /* NSData+KCJSONSerialization.m */,
-				E73844E2178A614100E8EA7A /* NSObject+KCJSONSerialization.h */,
-				E73844E3178A614100E8EA7A /* NSObject+KCJSONSerialization.m */,
-				E73844E6178A62B800E8EA7A /* NSDictionary+KCParseJSON.h */,
-				E73844E7178A62B900E8EA7A /* NSDictionary+KCParseJSON.m */,
-				E73844E9178A757F00E8EA7A /* KCJSON.h */,
-			);
-			name = KCJSON;
-			path = KCJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -674,45 +801,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E76BA20C17765819001EDCCA /* NSArray+KCServices.m in Sources */,
-				E76BA2111776BDA5001EDCCA /* KCBlockHandler.m in Sources */,
-				E73843E21789E24800E8EA7A /* KCError.m in Sources */,
-				E73843E51789F40D00E8EA7A /* KCJSONError.m in Sources */,
-				E73844CB178A4E8A00E8EA7A /* NSString+KCJSONSerialization.m in Sources */,
-				E73844CE178A559400E8EA7A /* NSArray+KCJSONSerialization.m in Sources */,
-				E73844D1178A579000E8EA7A /* NSDictionary+KCJSONSerialization.m in Sources */,
-				E73844D4178A5AC100E8EA7A /* NSData+KCJSONSerialization.m in Sources */,
-				E73844E4178A614100E8EA7A /* NSObject+KCJSONSerialization.m in Sources */,
-				E73844E8178A62B900E8EA7A /* NSDictionary+KCParseJSON.m in Sources */,
-				E76D1213178BC26A00A4469B /* KCURLConnection.m in Sources */,
-				E76D1218178BC41100A4469B /* KCURLConnectionDelegate.m in Sources */,
-				E76D121B178BCAB200A4469B /* KCMutableURLRequest.m in Sources */,
-				E76D1221178BD7DB00A4469B /* KCHTTPError.m in Sources */,
-				E73E354C178D0D6A0079DEFB /* KCHTTPURLResponseHandler.m in Sources */,
-				E73E3550178D144D0079DEFB /* KCErrorResponse.m in Sources */,
-				E73E3553178D15BE0079DEFB /* KCHTTPURLResponse.m in Sources */,
-				E73E3557178D23420079DEFB /* KCURLConnectiontimerManager.m in Sources */,
-				E73E355B178D259A0079DEFB /* KCURLConnectionThreadManager.m in Sources */,
-				E73A0288179273AA00DF1285 /* KCLocationManager.m in Sources */,
-				E73A028C1792790000DF1285 /* NSDate+KCServices.m in Sources */,
-				E74FE0851793829E00085CF8 /* KCActionSheet.m in Sources */,
-				E74FE0861793829E00085CF8 /* UIButton+KCServices.m in Sources */,
-				E74FE0871793829E00085CF8 /* UILabel+KCServices.m in Sources */,
-				E74FE0881793829E00085CF8 /* KCGeometry.m in Sources */,
-				E74FE0891793829E00085CF8 /* UIView+Gesture.m in Sources */,
-				E74FE08A1793829E00085CF8 /* UIView+KCServices.m in Sources */,
-				E74FE08B1793829E00085CF8 /* UIView+QuartzCore.m in Sources */,
-				E74FE08C1793829E00085CF8 /* UIView+Transition.m in Sources */,
-				E74FE08F179382CE00085CF8 /* UIScreen+KCServices.m in Sources */,
-				E74FE0931793AF1800085CF8 /* NSNumber+KCServices.m in Sources */,
-				E74FE09A1793B6FF00085CF8 /* NSObject+KCServices.m in Sources */,
-				E74FE09E1793C68900085CF8 /* NSString+KCServices.m in Sources */,
-				E74B08E91794FC0600B82BE7 /* KCView.m in Sources */,
-				E74B08EE1794FE5200B82BE7 /* UIImageView+KCServices.m in Sources */,
 				E74B08F7179507D200B82BE7 /* KCViewController.m in Sources */,
 				E74B08FD1795083300B82BE7 /* KCNavigationController.m in Sources */,
-				E74B090117950B0200B82BE7 /* KCNavigationBar.m in Sources */,
-				E74B090417950B7700B82BE7 /* UINavigationItem+KCServices.m in Sources */,
+				E73ED66A179A54710062643B /* KCActionSheet.m in Sources */,
+				E73ED66B179A54710062643B /* UIButton+KCServices.m in Sources */,
+				E73ED66C179A54710062643B /* UIImageView+KCServices.m in Sources */,
+				E73ED66D179A54710062643B /* UILabel+KCServices.m in Sources */,
+				E73ED66E179A54710062643B /* KCModalNavigationBar.m in Sources */,
+				E73ED66F179A54710062643B /* KCNavigationBar.m in Sources */,
+				E73ED670179A54710062643B /* UINavigationItem+KCServices.m in Sources */,
+				E73ED671179A54710062643B /* KCGeometry.m in Sources */,
+				E73ED672179A54710062643B /* KCView.m in Sources */,
+				E73ED673179A54710062643B /* UIView+Gesture.m in Sources */,
+				E73ED674179A54710062643B /* UIView+KCServices.m in Sources */,
+				E73ED675179A54710062643B /* UIView+QuartzCore.m in Sources */,
+				E73ED676179A54710062643B /* UIView+Transition.m in Sources */,
+				E73ED679179A548A0062643B /* KCGradientButton.m in Sources */,
+				E73ED6D5179A5C840062643B /* KCBlockHandler.m in Sources */,
+				E73ED6D6179A5C840062643B /* KCError.m in Sources */,
+				E73ED6D7179A5C840062643B /* KCErrorResponse.m in Sources */,
+				E73ED6D8179A5C840062643B /* NSArray+KCServices.m in Sources */,
+				E73ED6D9179A5C840062643B /* NSDate+KCServices.m in Sources */,
+				E73ED6DA179A5C840062643B /* NSNumber+KCServices.m in Sources */,
+				E73ED6DB179A5C840062643B /* NSObject+KCServices.m in Sources */,
+				E73ED6DC179A5C840062643B /* NSString+KCServices.m in Sources */,
+				E73ED6DD179A5C840062643B /* UIFont+KCServices.m in Sources */,
+				E73ED6DE179A5C840062643B /* KCHTTPError.m in Sources */,
+				E73ED6DF179A5C840062643B /* KCHTTPURLResponse.m in Sources */,
+				E73ED6E0179A5C840062643B /* KCHTTPURLResponseHandler.m in Sources */,
+				E73ED6E1179A5C840062643B /* KCMutableURLRequest.m in Sources */,
+				E73ED6E2179A5C840062643B /* KCURLConnection.m in Sources */,
+				E73ED6E3179A5C840062643B /* KCURLConnectionDelegate.m in Sources */,
+				E73ED6E4179A5C840062643B /* KCURLConnectionThreadManager.m in Sources */,
+				E73ED6E5179A5C840062643B /* KCURLConnectiontimerManager.m in Sources */,
+				E73ED6E6179A5C840062643B /* UIImage+KCServices.m in Sources */,
+				E73ED6E7179A5C840062643B /* KCJSONError.m in Sources */,
+				E73ED6E8179A5C840062643B /* NSArray+KCJSONSerialization.m in Sources */,
+				E73ED6E9179A5C840062643B /* NSData+KCJSONSerialization.m in Sources */,
+				E73ED6EA179A5C840062643B /* NSDictionary+KCJSONSerialization.m in Sources */,
+				E73ED6EB179A5C840062643B /* NSDictionary+KCParseJSON.m in Sources */,
+				E73ED6EC179A5C840062643B /* NSObject+KCJSONSerialization.m in Sources */,
+				E73ED6ED179A5C840062643B /* NSString+KCJSONSerialization.m in Sources */,
+				E73ED6EE179A5C840062643B /* KCLocationManager.m in Sources */,
+				E73ED6EF179A5C840062643B /* UIScreen+KCServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

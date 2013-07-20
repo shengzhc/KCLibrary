@@ -10,9 +10,6 @@
 
 @interface KCNavigationController : UINavigationController
 
-@property (nonatomic, assign) BOOL forcePortrait;
-@property (nonatomic, assign) BOOL forceLandscape;
-
 + (KCNavigationController *)modalNavigationControllerWithRootViewController:(UIViewController *)viewController;
 + (KCNavigationController *)navigationControllerWithRootViewController:(UIViewController *)viewController;
 

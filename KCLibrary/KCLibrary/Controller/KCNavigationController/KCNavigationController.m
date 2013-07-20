@@ -7,6 +7,8 @@
 //
 
 #import "KCNavigationController.h"
+#import "KCNavigationBar.h"
+#import "KCModalNavigationBar.h"
 
 @interface KCNavigationController ()
 
@@ -14,16 +16,29 @@
 
 @implementation KCNavigationController
 
-- (void)viewDidLoad
+
++ (KCNavigationController *)navigationControllerWithRootViewController:(UIViewController *)viewController
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    return [self navigationControllerWithRootViewController:viewController
+                                         navigationBarClass:[KCNavigationBar class]];
 }
 
-- (void)didReceiveMemoryWarning
++ (KCNavigationController *)modalNavigationControllerWithRootViewController:(UIViewController *)viewController
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return [self navigationControllerWithRootViewController:viewController
+                                         navigationBarClass:[KCModalNavigationBar class]];
 }
+
++ (KCNavigationController *)navigationControllerWithRootViewController:(UIViewController *)viewController
+                                                    navigationBarClass:(Class)navigationBarClass
+{
+    KCNavigationController *navigationController = [[KCNavigationController alloc]
+                                                    initWithNavigationBarClass:navigationBarClass
+                                                    toolbarClass:[UIToolbar class]];
+    
+    [navigationController setViewControllers:[NSArray arrayWithObject:viewController]];
+    return navigationController;
+}
+
 
 @end
