@@ -101,6 +101,8 @@
 		E74B08F7179507D200B82BE7 /* KCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08F6179507D200B82BE7 /* KCViewController.m */; };
 		E74B08FD1795083300B82BE7 /* KCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08FC1795083300B82BE7 /* KCNavigationController.m */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
+		E7DC2D26179B765A00DF53B0 /* KCScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D25179B765A00DF53B0 /* KCScrollPageView.m */; };
+		E7DC2D2A179B76EC00DF53B0 /* KCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D29179B76EC00DF53B0 /* KCScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -262,6 +264,11 @@
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		E7DC2D24179B765A00DF53B0 /* KCScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCScrollPageView.h; sourceTree = "<group>"; };
+		E7DC2D25179B765A00DF53B0 /* KCScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCScrollPageView.m; sourceTree = "<group>"; };
+		E7DC2D27179B769F00DF53B0 /* KCScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCScrollViewDelegate.h; sourceTree = "<group>"; };
+		E7DC2D28179B76EC00DF53B0 /* KCScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCScrollView.h; sourceTree = "<group>"; };
+		E7DC2D29179B76EC00DF53B0 /* KCScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +320,7 @@
 		E73ED649179A54710062643B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E7DC2D22179B764700DF53B0 /* ScrollView */,
 				E73ED64A179A54710062643B /* ActionSheet */,
 				E73ED64D179A54710062643B /* Button */,
 				E73ED650179A54710062643B /* ImageView */,
@@ -750,6 +758,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E7DC2D22179B764700DF53B0 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E7DC2D24179B765A00DF53B0 /* KCScrollPageView.h */,
+				E7DC2D25179B765A00DF53B0 /* KCScrollPageView.m */,
+				E7DC2D27179B769F00DF53B0 /* KCScrollViewDelegate.h */,
+				E7DC2D28179B76EC00DF53B0 /* KCScrollView.h */,
+				E7DC2D29179B76EC00DF53B0 /* KCScrollView.m */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -844,6 +864,8 @@
 				E73ED6ED179A5C840062643B /* NSString+KCJSONSerialization.m in Sources */,
 				E73ED6EE179A5C840062643B /* KCLocationManager.m in Sources */,
 				E73ED6EF179A5C840062643B /* UIScreen+KCServices.m in Sources */,
+				E7DC2D26179B765A00DF53B0 /* KCScrollPageView.m in Sources */,
+				E7DC2D2A179B76EC00DF53B0 /* KCScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
