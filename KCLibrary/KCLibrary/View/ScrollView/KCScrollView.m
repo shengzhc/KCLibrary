@@ -82,7 +82,7 @@
 
 - (void)selectFirstScrollPageView
 {
-    
+    [self scrollToScrollPageView:0];
 }
 
 ////////////////////////////////////////////////////////////
@@ -90,7 +90,6 @@
 #pragma mark - Scroll Method
 ////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////
-
 - (void)scrollToScrollPageView:(NSUInteger)index
 {
     return [self scrollToScrollPageView:index
@@ -126,6 +125,32 @@
     self.currentScrollPageView = scrollPageView;
 }
 
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+#pragma mark - UIScrollViewDelegate
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    
+}
+
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView
+{
+    
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    NSUInteger index = scrollView.contentOffset.x / scrollView.frame.size.width;
+    [self scrollToScrollPageView:index];
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    [(id)self.delegate attemptPerformSelector:@selector(scrollViewDidScroll:)
+                                   withObject:self];
+}
 
 ////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////
