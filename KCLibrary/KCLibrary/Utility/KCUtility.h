@@ -18,6 +18,7 @@
 #import "NSString+KCServices.h"
 #import "UIFont+KCServices.h"
 #import "KCGeometry.h"
+#import "UILabel+KCServices.h"
 
 
 #endif

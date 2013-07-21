@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KCButton.h"
 
-@interface KCGradientButton : UIButton
+@interface KCGradientButton : KCButton
 
 - (id)initWithGradientColors:(NSArray *)gradientColors
            gradientLocations:(NSArray *)gradientLocations

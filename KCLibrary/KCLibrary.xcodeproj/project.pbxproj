@@ -103,6 +103,15 @@
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E7DC2D26179B765A00DF53B0 /* KCScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D25179B765A00DF53B0 /* KCScrollPageView.m */; };
 		E7DC2D2A179B76EC00DF53B0 /* KCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D29179B76EC00DF53B0 /* KCScrollView.m */; };
+		E7DC2D30179B99DF00DF53B0 /* KCTabMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D2F179B99DF00DF53B0 /* KCTabMenuView.m */; };
+		E7DC2D33179B9A2600DF53B0 /* KCMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D32179B9A2600DF53B0 /* KCMenuItem.m */; };
+		E7DC2D36179B9BA900DF53B0 /* KCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D35179B9BA900DF53B0 /* KCButton.m */; };
+		E7DC2D37179BA1D000DF53B0 /* KCMenuItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7DC2D31179B9A2600DF53B0 /* KCMenuItem.h */; };
+		E7DC2D38179BA1D000DF53B0 /* KCTabMenuView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7DC2D2E179B99DF00DF53B0 /* KCTabMenuView.h */; };
+		E7DC2D39179BA1D000DF53B0 /* KCScrollPageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7DC2D24179B765A00DF53B0 /* KCScrollPageView.h */; };
+		E7DC2D3A179BA1D000DF53B0 /* KCScrollViewDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7DC2D27179B769F00DF53B0 /* KCScrollViewDelegate.h */; };
+		E7DC2D3B179BA1D000DF53B0 /* KCScrollView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7DC2D28179B76EC00DF53B0 /* KCScrollView.h */; };
+		E7DC2D3C179BA1D000DF53B0 /* KCButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7DC2D34179B9BA800DF53B0 /* KCButton.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -112,6 +121,12 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				E7DC2D37179BA1D000DF53B0 /* KCMenuItem.h in CopyFiles */,
+				E7DC2D38179BA1D000DF53B0 /* KCTabMenuView.h in CopyFiles */,
+				E7DC2D39179BA1D000DF53B0 /* KCScrollPageView.h in CopyFiles */,
+				E7DC2D3A179BA1D000DF53B0 /* KCScrollViewDelegate.h in CopyFiles */,
+				E7DC2D3B179BA1D000DF53B0 /* KCScrollView.h in CopyFiles */,
+				E7DC2D3C179BA1D000DF53B0 /* KCButton.h in CopyFiles */,
 				E73ED731179A5D350062643B /* KCURLConnectionThreadManager.h in CopyFiles */,
 				E73ED721179A5D290062643B /* NSArray+Extension.h in CopyFiles */,
 				E73ED722179A5D290062643B /* NSArray+KCServices.h in CopyFiles */,
@@ -269,6 +284,12 @@
 		E7DC2D27179B769F00DF53B0 /* KCScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCScrollViewDelegate.h; sourceTree = "<group>"; };
 		E7DC2D28179B76EC00DF53B0 /* KCScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCScrollView.h; sourceTree = "<group>"; };
 		E7DC2D29179B76EC00DF53B0 /* KCScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCScrollView.m; sourceTree = "<group>"; };
+		E7DC2D2E179B99DF00DF53B0 /* KCTabMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTabMenuView.h; sourceTree = "<group>"; };
+		E7DC2D2F179B99DF00DF53B0 /* KCTabMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTabMenuView.m; sourceTree = "<group>"; };
+		E7DC2D31179B9A2600DF53B0 /* KCMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMenuItem.h; sourceTree = "<group>"; };
+		E7DC2D32179B9A2600DF53B0 /* KCMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMenuItem.m; sourceTree = "<group>"; };
+		E7DC2D34179B9BA800DF53B0 /* KCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCButton.h; sourceTree = "<group>"; };
+		E7DC2D35179B9BA900DF53B0 /* KCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +341,7 @@
 		E73ED649179A54710062643B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E7DC2D2B179B99B500DF53B0 /* MenuView */,
 				E7DC2D22179B764700DF53B0 /* ScrollView */,
 				E73ED64A179A54710062643B /* ActionSheet */,
 				E73ED64D179A54710062643B /* Button */,
@@ -347,6 +369,8 @@
 				E73ED64F179A54710062643B /* UIButton+KCServices.m */,
 				E73ED677179A548A0062643B /* KCGradientButton.h */,
 				E73ED678179A548A0062643B /* KCGradientButton.m */,
+				E7DC2D34179B9BA800DF53B0 /* KCButton.h */,
+				E7DC2D35179B9BA900DF53B0 /* KCButton.m */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -770,6 +794,33 @@
 			path = ScrollView;
 			sourceTree = "<group>";
 		};
+		E7DC2D2B179B99B500DF53B0 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				E7DC2D2D179B99C800DF53B0 /* MenuItem */,
+				E7DC2D2C179B99B500DF53B0 /* TabMenuView */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		E7DC2D2C179B99B500DF53B0 /* TabMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				E7DC2D2E179B99DF00DF53B0 /* KCTabMenuView.h */,
+				E7DC2D2F179B99DF00DF53B0 /* KCTabMenuView.m */,
+			);
+			path = TabMenuView;
+			sourceTree = "<group>";
+		};
+		E7DC2D2D179B99C800DF53B0 /* MenuItem */ = {
+			isa = PBXGroup;
+			children = (
+				E7DC2D31179B9A2600DF53B0 /* KCMenuItem.h */,
+				E7DC2D32179B9A2600DF53B0 /* KCMenuItem.m */,
+			);
+			path = MenuItem;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -866,6 +917,9 @@
 				E73ED6EF179A5C840062643B /* UIScreen+KCServices.m in Sources */,
 				E7DC2D26179B765A00DF53B0 /* KCScrollPageView.m in Sources */,
 				E7DC2D2A179B76EC00DF53B0 /* KCScrollView.m in Sources */,
+				E7DC2D30179B99DF00DF53B0 /* KCTabMenuView.m in Sources */,
+				E7DC2D33179B9A2600DF53B0 /* KCMenuItem.m in Sources */,
+				E7DC2D36179B9BA900DF53B0 /* KCButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
