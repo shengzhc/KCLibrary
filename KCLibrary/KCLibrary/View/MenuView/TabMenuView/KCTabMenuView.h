@@ -8,6 +8,8 @@
 
 #import "KCView.h"
 
+@class KCMenuItem;
+
 @interface KCTabMenuView : KCView
 
 @end

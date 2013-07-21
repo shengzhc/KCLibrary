@@ -9,16 +9,21 @@
 #ifndef KCLibrary_KCUtility_h
 #define KCLibrary_KCUtility_h
 
-#import "UIScreen+KCServices.h"
-#import "UIImage+KCServices.h"
 #import "NSArray+Extension.h"
 #import "NSDate+KCServices.h"
 #import "NSNumber+KCServices.h"
 #import "NSObject+KCServices.h"
 #import "NSString+KCServices.h"
-#import "UIFont+KCServices.h"
-#import "KCGeometry.h"
+
+#import "UIScreen+KCServices.h"
+#import "UIImage+KCServices.h"
 #import "UILabel+KCServices.h"
+#import "UIImageView+KCServices.h"
+#import "UIFont+KCServices.h"
+#import "UIView+KCServices.h"
+#import "UIColor+KCServices.h"
+
+#import "KCGeometry.h"
 
 
 #endif

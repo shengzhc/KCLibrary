@@ -13,9 +13,12 @@
 - (void)attemptPerformSelector:(SEL)selector;
 - (void)attemptPerformSelector:(SEL)selector
                     withObject:(id)object;
-
 - (void)attemptPerformSelector:(SEL)selector
                    withObjects:(NSObject *)objects, ...;
+
+- (void)attemptPerformSelector:(SEL)selector
+                    withObject:(id)object
+                    afterDelay:(float)delay;
 
 - (void)attemptPerformSelectorInBackground:(SEL)selector;
 - (void)attemptPerformSelectorInBackground:(SEL)selector
@@ -28,5 +31,9 @@
                                 withObject:(NSObject *)object;
 - (void)attemptPerformSelectorOnMainThread:(SEL)selector
                                withObjects:(NSObject *)objects, ...;
+
+- (void)attemptPerformSelector:(SEL)selector
+                    withObject:(id)object
+                    afterDelay:(float)delay;
 
 @end

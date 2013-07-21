@@ -63,4 +63,51 @@
     return image;
 }
 
+
++ (UIImage *)imageWithColor:(UIColor *)color
+                       size:(CGSize)size
+{
+    if (!color)
+    {
+        return nil;
+    }
+    
+    CGRect rect = KCRectMake(0, 0, size.width, size.height);
+    
+    UIGraphicsBeginImageContext(size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, color.CGColor);
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
+
+- (UIImage *)imageWithOverlayColor:(UIColor *)color
+{
+    if (!color)
+    {
+        return self;
+    }
+    
+    CGRect rect = KCRectMake(0, 0, self.size.width, self.size.height);
+    
+    UIGraphicsBeginImageContext(self.size);
+    [self drawInRect:rect];
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetBlendMode(context, kCGBlendModeSourceIn);
+    CGContextSetFillColorWithColor(context, color.CGColor);
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
+
+
 @end

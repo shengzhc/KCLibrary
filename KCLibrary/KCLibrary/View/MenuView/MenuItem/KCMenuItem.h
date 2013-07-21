@@ -10,7 +10,11 @@
 
 @interface KCMenuItem : KCButton
 
-@property (nonatomic, strong) UILabel *textLabel;
+- (id)initWithText:(NSString *)text
+         imageName:(NSString *)imageName;
+
+- (void)setPressedState;
+- (void)setDefaultState;
 
 
 @end

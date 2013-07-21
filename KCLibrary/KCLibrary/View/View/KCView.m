@@ -28,6 +28,8 @@
             self.backgroundImageView = [UIImageView imageViewWithImageNamed:[self backgroundImageString]];
             [self addSubview:self.backgroundImageView];
         }
+        
+        self.delegate = delegate;
     }
     return self;
 }

@@ -100,6 +100,7 @@
 		E73ED731179A5D350062643B /* KCURLConnectionThreadManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E73ED6B6179A5C840062643B /* KCURLConnectionThreadManager.h */; };
 		E74B08F7179507D200B82BE7 /* KCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08F6179507D200B82BE7 /* KCViewController.m */; };
 		E74B08FD1795083300B82BE7 /* KCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08FC1795083300B82BE7 /* KCNavigationController.m */; };
+		E75C034E179C4DEE00DEC71D /* UIColor+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E75C034D179C4DEE00DEC71D /* UIColor+KCServices.m */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E7DC2D26179B765A00DF53B0 /* KCScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D25179B765A00DF53B0 /* KCScrollPageView.m */; };
 		E7DC2D2A179B76EC00DF53B0 /* KCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D29179B76EC00DF53B0 /* KCScrollView.m */; };
@@ -276,6 +277,8 @@
 		E74B08FC1795083300B82BE7 /* KCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNavigationController.m; sourceTree = "<group>"; };
 		E753F0AB179512AF00E4EE74 /* navigation_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_header.png; sourceTree = "<group>"; };
 		E753F0AC179512AF00E4EE74 /* navigation_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_header@2x.png"; sourceTree = "<group>"; };
+		E75C034C179C4DEE00DEC71D /* UIColor+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KCServices.h"; sourceTree = "<group>"; };
+		E75C034D179C4DEE00DEC71D /* UIColor+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KCServices.m"; sourceTree = "<group>"; };
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -480,6 +483,7 @@
 		E73ED68E179A5C840062643B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E75C034A179C4DDE00DEC71D /* UIColor */,
 				E73ED68F179A5C840062643B /* NSArray */,
 				E73ED693179A5C840062643B /* NSDate */,
 				E73ED696179A5C840062643B /* NSNumber */,
@@ -733,6 +737,15 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		E75C034A179C4DDE00DEC71D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				E75C034C179C4DEE00DEC71D /* UIColor+KCServices.h */,
+				E75C034D179C4DEE00DEC71D /* UIColor+KCServices.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
 		E76BA1E4177653AF001EDCCA = {
 			isa = PBXGroup;
 			children = (
@@ -920,6 +933,7 @@
 				E7DC2D30179B99DF00DF53B0 /* KCTabMenuView.m in Sources */,
 				E7DC2D33179B9A2600DF53B0 /* KCMenuItem.m in Sources */,
 				E7DC2D36179B9BA900DF53B0 /* KCButton.m in Sources */,
+				E75C034E179C4DEE00DEC71D /* UIColor+KCServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

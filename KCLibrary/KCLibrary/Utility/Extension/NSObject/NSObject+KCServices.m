@@ -158,4 +158,17 @@
                               waitUntilDone:NO];
 }
 
+
+- (void)attemptPerformSelector:(SEL)selector
+                    withObject:(id)object
+                    afterDelay:(float)delay
+{
+    NSInvocation *invocation = [self invocationForSelector:selector
+                                               withObjects:object, nil];
+    
+    [invocation performSelector:@selector(invoke)
+                     withObject:nil
+                     afterDelay:delay];
+}
+
 @end
