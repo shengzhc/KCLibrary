@@ -13,7 +13,6 @@
 @interface KCScrollView()
 
 @property (nonatomic, strong) UIScrollView *scrollView;
-@property (nonatomic, strong) NSMutableArray *scrollPageViews;
 @property (nonatomic, strong) KCScrollPageView *currentScrollPageView;
 
 @property (nonatomic, weak) id < KCScrollViewDelegate > delegate;
@@ -49,12 +48,30 @@
         self.scrollView.pagingEnabled = YES;
         
         [self addSubview:self.scrollView];
-        
-        self.scrollPageViews = [[NSMutableArray alloc] init];
         self.dataSource = dataSource;
+        
+        [self reloadScrollPageViews];
     }
     
     return self;
+}
+
+- (void)reloadScrollPageViews
+{
+    NSUInteger pages = [self.dataSource scrollViewNumberOfPages:self];
+    for (NSUInteger idx = 0; idx < pages; idx ++)
+    {
+        KCScrollPageView *scrollPageView = [self.dataSource scrollView:self
+                                                      pageViewForIndex:idx];
+        
+        if (scrollPageView.superview == self)
+        {
+            [scrollPageView removeFromSuperview];
+        }
+        
+        [self.scrollView addSubview:[self.dataSource scrollView:self
+                                               pageViewForIndex:idx]];
+    }
 }
 
 - (void)layoutSubviews
@@ -62,16 +79,19 @@
     [super layoutSubviews];
     
     self.scrollView.frame = self.bounds;
-    [self.scrollPageViews enumerateObjectsUsingBlock:
-     ^(KCScrollPageView *scrollPageView, NSUInteger idx, BOOL *stop)
+    NSUInteger scrollPageCount = [self.dataSource
+                                  scrollViewNumberOfPages:self];
+    for (NSUInteger idx = 0; idx < scrollPageCount; idx++)
     {
+        KCScrollPageView *scrollPageView = [self.dataSource scrollView:self
+                                                      pageViewForIndex:idx];
         scrollPageView.frame = KCRectMake(idx * [self scrollPageWidth],
                                           0,
                                           [self scrollPageWidth],
                                           [self scrollPageHeight]);
-    }];
+    }
     
-    [self.scrollView setContentSize:KCSizeMake([self.scrollPageViews count] * [self scrollPageWidth],
+    [self.scrollView setContentSize:KCSizeMake(scrollPageCount * [self scrollPageWidth],
                                                [self scrollPageHeight])];
     
     if (!self.currentScrollPageView)

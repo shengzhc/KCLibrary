@@ -11,5 +11,14 @@
 
 @interface KCScrollView : KCView < UIScrollViewDelegate, KCScrollViewDelegate, KCScrollViewDataSourceDelegate >
 
+- (id)initWithFrame:(CGRect)frame
+           delegate:(id < KCScrollViewDelegate > )delegate
+         dataSource:(id < KCScrollViewDataSourceDelegate >)dataSource;
 
+- (void)reloadScrollPageViews;
+
+- (void)scrollToScrollPageView:(NSUInteger)index;
+
+- (void)scrollToScrollPageView:(NSUInteger)index
+                      animated:(BOOL)animated;
 @end

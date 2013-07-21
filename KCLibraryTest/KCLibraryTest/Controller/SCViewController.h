@@ -7,7 +7,8 @@
 //
 
 #import "KCViewController.h"
+#import "KCScrollViewDelegate.h"
 
-@interface SCViewController : KCViewController
+@interface SCViewController : KCViewController < KCScrollViewDelegate, KCScrollViewDataSourceDelegate > 
 
 @end

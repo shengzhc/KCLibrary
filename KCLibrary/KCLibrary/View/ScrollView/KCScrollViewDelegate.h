@@ -11,12 +11,12 @@
 @class KCScrollView;
 @class KCScrollPageView;
 
-@protocol KCScrollViewDelegate <NSObject>
+@protocol KCScrollViewDelegate <NSObject> 
 
 @optional
 
 - (void)scrollView:(KCScrollView *)scrollView didScrollToPageIndex:(NSUInteger)page;
-- (void)scrollView:(KCScrollView *)scrollView didScrollToView:(KCView *)view;
+- (void)scrollView:(KCScrollView *)scrollView didScrollToView:(KCScrollPageView *)view;
 - (void)scrollViewDidScroll:(KCScrollView *)scrollView;
 
 @end

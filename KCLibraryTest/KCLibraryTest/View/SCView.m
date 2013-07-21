@@ -8,6 +8,13 @@
 
 #import "SCView.h"
 #import "KCUtility.h"
+#import "KCScrollView.h"
+
+@interface SCView()
+
+@property (nonatomic, strong) KCScrollView *scrollView;
+
+@end
 
 @implementation SCView
 
@@ -19,10 +26,19 @@
 
     if (self)
     {
-        self.backgroundColor = [UIColor greenColor];
+        self.scrollView = [[KCScrollView alloc] initWithFrame:CGRectZero
+                                                     delegate:delegate];
+        
+        [self addSubview:self.scrollView];
     }
     
     return self;
+}
+
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    self.scrollView.frame = self.bounds;
 }
 
 @end
