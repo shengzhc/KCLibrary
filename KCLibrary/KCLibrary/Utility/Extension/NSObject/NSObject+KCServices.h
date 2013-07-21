@@ -32,8 +32,4 @@
 - (void)attemptPerformSelectorOnMainThread:(SEL)selector
                                withObjects:(NSObject *)objects, ...;
 
-- (void)attemptPerformSelector:(SEL)selector
-                    withObject:(id)object
-                    afterDelay:(float)delay;
-
 @end

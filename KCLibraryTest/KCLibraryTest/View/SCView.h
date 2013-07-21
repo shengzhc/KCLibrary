@@ -2,12 +2,13 @@
 //  SCView.h
 //  KCLibraryTest
 //
-//  Created by Shengzhe Chen on 7/14/13.
+//  Created by Shengzhe Chen on 7/21/13.
 //  Copyright (c) 2013 Shengzhe Chen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "KCView.h"
 
-@interface SCView : UIView
+@interface SCView : KCView
+
 
 @end

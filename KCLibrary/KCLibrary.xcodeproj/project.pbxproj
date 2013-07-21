@@ -101,6 +101,7 @@
 		E74B08F7179507D200B82BE7 /* KCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08F6179507D200B82BE7 /* KCViewController.m */; };
 		E74B08FD1795083300B82BE7 /* KCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08FC1795083300B82BE7 /* KCNavigationController.m */; };
 		E75C034E179C4DEE00DEC71D /* UIColor+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E75C034D179C4DEE00DEC71D /* UIColor+KCServices.m */; };
+		E75C034F179C7C0F00DEC71D /* UIColor+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E75C034C179C4DEE00DEC71D /* UIColor+KCServices.h */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E7DC2D26179B765A00DF53B0 /* KCScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D25179B765A00DF53B0 /* KCScrollPageView.m */; };
 		E7DC2D2A179B76EC00DF53B0 /* KCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D29179B76EC00DF53B0 /* KCScrollView.m */; };
@@ -122,6 +123,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				E75C034F179C7C0F00DEC71D /* UIColor+KCServices.h in CopyFiles */,
 				E7DC2D37179BA1D000DF53B0 /* KCMenuItem.h in CopyFiles */,
 				E7DC2D38179BA1D000DF53B0 /* KCTabMenuView.h in CopyFiles */,
 				E7DC2D39179BA1D000DF53B0 /* KCScrollPageView.h in CopyFiles */,
