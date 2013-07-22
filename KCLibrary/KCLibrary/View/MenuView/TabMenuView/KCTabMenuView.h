@@ -12,4 +12,7 @@
 
 @interface KCTabMenuView : KCView
 
+- (void)addMenuItem:(KCMenuItem *)menuItem;
+- (void)removeMenuItem:(KCMenuItem *)menuItem;
+
 @end

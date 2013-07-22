@@ -24,6 +24,8 @@
     
     if (self)
     {
+        self.backgroundColor = [UIColor kcBlueColor];
+        
         self.textLabel = [UILabel labelWithTextColor:[self textLabelColor]
                                            alignment:NSTextAlignmentCenter];
         

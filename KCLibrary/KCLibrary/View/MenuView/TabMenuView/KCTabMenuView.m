@@ -102,7 +102,7 @@
        forControlEvents:UIControlEventTouchUpInside];
     
     [self.menuItems addObject:menuItem];
-    
+    [self addSubview:menuItem];
 }
 
 - (void)removeMenuItem:(KCMenuItem *)menuItem

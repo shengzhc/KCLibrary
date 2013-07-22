@@ -22,6 +22,7 @@
 #import "UIFont+KCServices.h"
 #import "UIView+KCServices.h"
 #import "UIColor+KCServices.h"
+#import "UIColor+KCSwatch.h"
 
 #import "KCGeometry.h"
 

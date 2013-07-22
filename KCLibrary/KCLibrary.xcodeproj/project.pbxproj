@@ -102,6 +102,8 @@
 		E74B08FD1795083300B82BE7 /* KCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B08FC1795083300B82BE7 /* KCNavigationController.m */; };
 		E75C034E179C4DEE00DEC71D /* UIColor+KCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E75C034D179C4DEE00DEC71D /* UIColor+KCServices.m */; };
 		E75C034F179C7C0F00DEC71D /* UIColor+KCServices.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E75C034C179C4DEE00DEC71D /* UIColor+KCServices.h */; };
+		E75C0396179D07D200DEC71D /* UIColor+KCSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = E75C0395179D07D200DEC71D /* UIColor+KCSwatch.m */; };
+		E75C0397179D093800DEC71D /* UIColor+KCSwatch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E75C0394179D07D200DEC71D /* UIColor+KCSwatch.h */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
 		E7DC2D26179B765A00DF53B0 /* KCScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D25179B765A00DF53B0 /* KCScrollPageView.m */; };
 		E7DC2D2A179B76EC00DF53B0 /* KCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D29179B76EC00DF53B0 /* KCScrollView.m */; };
@@ -123,6 +125,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				E75C0397179D093800DEC71D /* UIColor+KCSwatch.h in CopyFiles */,
 				E75C034F179C7C0F00DEC71D /* UIColor+KCServices.h in CopyFiles */,
 				E7DC2D37179BA1D000DF53B0 /* KCMenuItem.h in CopyFiles */,
 				E7DC2D38179BA1D000DF53B0 /* KCTabMenuView.h in CopyFiles */,
@@ -277,10 +280,10 @@
 		E74B08F6179507D200B82BE7 /* KCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCViewController.m; sourceTree = "<group>"; };
 		E74B08FB1795083300B82BE7 /* KCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNavigationController.h; sourceTree = "<group>"; };
 		E74B08FC1795083300B82BE7 /* KCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNavigationController.m; sourceTree = "<group>"; };
-		E753F0AB179512AF00E4EE74 /* navigation_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation_header.png; sourceTree = "<group>"; };
-		E753F0AC179512AF00E4EE74 /* navigation_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation_header@2x.png"; sourceTree = "<group>"; };
 		E75C034C179C4DEE00DEC71D /* UIColor+KCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KCServices.h"; sourceTree = "<group>"; };
 		E75C034D179C4DEE00DEC71D /* UIColor+KCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KCServices.m"; sourceTree = "<group>"; };
+		E75C0394179D07D200DEC71D /* UIColor+KCSwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KCSwatch.h"; sourceTree = "<group>"; };
+		E75C0395179D07D200DEC71D /* UIColor+KCSwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KCSwatch.m"; sourceTree = "<group>"; };
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
@@ -433,6 +436,7 @@
 		E73ED683179A5C840062643B /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				E73ED6CE179A5C840062643B /* KCUtility.h */,
 				E73ED684179A5C840062643B /* BlockHandler */,
 				E73ED687179A5C840062643B /* Error */,
 				E73ED68B179A5C840062643B /* ErrorBundleResponse */,
@@ -440,7 +444,6 @@
 				E73ED6A2179A5C840062643B /* HTTP */,
 				E73ED6BB179A5C840062643B /* Image */,
 				E73ED6BE179A5C840062643B /* JSON */,
-				E73ED6CE179A5C840062643B /* KCUtility.h */,
 				E73ED6CF179A5C840062643B /* Location */,
 				E73ED6D2179A5C840062643B /* UIScreen */,
 			);
@@ -714,36 +717,13 @@
 			path = KCViewController;
 			sourceTree = "<group>";
 		};
-		E74B09051795123300B82BE7 /* Bundle */ = {
-			isa = PBXGroup;
-			children = (
-				E74B09061795123300B82BE7 /* Images */,
-			);
-			path = Bundle;
-			sourceTree = "<group>";
-		};
-		E74B09061795123300B82BE7 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				E753F0AA179512AF00E4EE74 /* Navigation */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
-		E753F0AA179512AF00E4EE74 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				E753F0AB179512AF00E4EE74 /* navigation_header.png */,
-				E753F0AC179512AF00E4EE74 /* navigation_header@2x.png */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
 		E75C034A179C4DDE00DEC71D /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
 				E75C034C179C4DEE00DEC71D /* UIColor+KCServices.h */,
 				E75C034D179C4DEE00DEC71D /* UIColor+KCServices.m */,
+				E75C0394179D07D200DEC71D /* UIColor+KCSwatch.h */,
+				E75C0395179D07D200DEC71D /* UIColor+KCSwatch.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -751,7 +731,6 @@
 		E76BA1E4177653AF001EDCCA = {
 			isa = PBXGroup;
 			children = (
-				E74B09051795123300B82BE7 /* Bundle */,
 				E76BA1F4177653AF001EDCCA /* KCLibrary */,
 				E76BA1F1177653AF001EDCCA /* Frameworks */,
 				E76BA1F0177653AF001EDCCA /* Products */,
@@ -936,6 +915,7 @@
 				E7DC2D33179B9A2600DF53B0 /* KCMenuItem.m in Sources */,
 				E7DC2D36179B9BA900DF53B0 /* KCButton.m in Sources */,
 				E75C034E179C4DEE00DEC71D /* UIColor+KCServices.m in Sources */,
+				E75C0396179D07D200DEC71D /* UIColor+KCSwatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
