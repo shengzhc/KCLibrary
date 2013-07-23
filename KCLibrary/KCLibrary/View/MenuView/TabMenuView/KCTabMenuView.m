@@ -121,9 +121,7 @@
     [self.delegate attemptPerformSelector:@selector(tabMenuView:clickedMenuItem:)
                               withObjects:self, menuItem, nil];
     
-    [self.selectedMenuItem setDefaultState];
     self.selectedMenuItem = menuItem;
-    
 }
 
 @end

@@ -37,11 +37,11 @@
                                                     delegate:delegate];
         
         KCMenuItem *menuItem1 = [[KCMenuItem alloc] initWithText:@"Close"
-                                                       imageName:@"menu_close"];
+                                                       imageName:@"menu_share"];
         KCMenuItem *menuItem2 = [[KCMenuItem alloc] initWithText:@"Info"
-                                                       imageName:@"menu_info"];
+                                                       imageName:@"menu_settings"];
         KCMenuItem *menuItem3 = [[KCMenuItem alloc] initWithText:@"Logout"
-                                                       imageName:@"menu_footer_logout"];
+                                                       imageName:@"menu_logout"];
         [self.menuView addMenuItem:menuItem1];
         [self.menuView addMenuItem:menuItem2];
         [self.menuView addMenuItem:menuItem3];

@@ -187,6 +187,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E72412F5179E251200F9C748 /* KCTabMenuViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTabMenuViewDelegate.h; sourceTree = "<group>"; };
 		E73A02D31792866400DF1285 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E73A02D51792866900DF1285 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E73ED5B5179A53070062643B /* KCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLog.h; sourceTree = "<group>"; };
@@ -802,6 +803,7 @@
 			children = (
 				E7DC2D2E179B99DF00DF53B0 /* KCTabMenuView.h */,
 				E7DC2D2F179B99DF00DF53B0 /* KCTabMenuView.m */,
+				E72412F5179E251200F9C748 /* KCTabMenuViewDelegate.h */,
 			);
 			path = TabMenuView;
 			sourceTree = "<group>";

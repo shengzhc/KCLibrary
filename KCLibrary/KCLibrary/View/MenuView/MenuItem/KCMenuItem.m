@@ -24,17 +24,37 @@
     
     if (self)
     {
-        self.backgroundColor = [UIColor kcBlueColor];
-        
-        self.textLabel = [UILabel labelWithTextColor:[self textLabelColor]
-                                           alignment:NSTextAlignmentCenter];
+        self.textLabel = [UILabel labelWithFrame:CGRectZero
+                                            text:text
+                                       alignment:NSTextAlignmentCenter
+                                            font:[self textLabelFont]
+                                       textColor:[self textLabelColor]];
         
         [self addSubview:self.imageView];
+        
         [self addSubview:self.textLabel];
         
         self.textLabel.text = [text uppercaseString];
+        
+        UIImage *image = [UIImage imageWithColor:[UIColor kcBlueColor]
+                                            size:KCSizeMake(1.0f, 1.0f)];
+        
+        [self setBackgroundImage:[image imageWithOverlayColor:[self overlayImageColor]]
+              forState:UIControlStateNormal];
+        
+        [self setBackgroundImage:[image imageWithOverlayColor:[self pressedOverlayImageColor]]
+              forState:UIControlStateHighlighted];
+        
+        [self setTitleColor:[self textLabelColor]
+                   forState:UIControlStateNormal];
+        
+        [self setTitleColor:[self pressedTextLabelColor]
+                   forState:UIControlStateHighlighted];
+        
+        
         [self setImage:[UIImage imageNamed:imageName]
               forState:UIControlStateNormal];
+        
     }
     
     return self;
@@ -43,9 +63,11 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
+    
     self.imageView.frame = [self.imageView alignedRectInSuperviewForSize:self.imageView.image.size
-                                                                  offset:KCSizeMake(0, -10)
-                                                                 options:(KCAlignmentOptionsHorizontalCenter | KCAlignmentOptionsVerticalCenter)];
+                                                                  offset:KCSizeMake(0, 5)
+                                                                 options:(KCAlignmentOptionsHorizontalCenter | KCAlignmentOptionsTop)];
+    
     self.textLabel.frame = [self.textLabel alignedRectInSuperviewForSize:KCSizeMake([self textLabelWidth], [self textLabelHeight])
                                                                   offset:KCSizeMake(0, 10)
                                                                  options:(KCAlignmentOptionsHorizontalCenter | KCAlignmentOptionsBottom)];
@@ -53,48 +75,14 @@
 
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
-#pragma mark State Method
-//////////////////////////////////////////////////////
-//////////////////////////////////////////////////////
-- (void)setHighlighted:(BOOL)highlighted
-{
-    [super setHighlighted:highlighted];
-    if (highlighted)
-    {
-        [self setPressedState];
-    }
-    else
-    {
-        [self setDefaultState];
-    }
-}
-
-- (void)setDefaultState
-{
-    [self updateSubviewsWithTextColor:[self textLabelColor]
-                           imageColor:[self overlayImageColor]];
-}
-
-- (void)setPressedState
-{
-    [self updateSubviewsWithTextColor:[self pressedTextLabelColor]
-                           imageColor:[self pressedOverlayImageColor]];
-}
-
-- (void)updateSubviewsWithTextColor:(UIColor *)color
-                         imageColor:(UIColor *)imageColor
-{
-    self.textLabel.textColor = color;
-    [self setImage:[[self imageForState:UIControlStateNormal]
-                    imageWithOverlayColor:imageColor]
-          forState:UIControlStateNormal];
-}
-
-//////////////////////////////////////////////////////
-//////////////////////////////////////////////////////
 #pragma mark Label Property
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
+- (UIFont *)textLabelFont
+{
+    return [UIFont boldFontWithSize:9];
+}
+
 - (UIColor *)textLabelColor
 {
     return [UIColor blackColor];
@@ -112,7 +100,7 @@
 
 - (CGFloat)textLabelHeight
 {
-    return 20;
+    return [self.textLabel labelHeightWithMaxWidth:[self textLabelWidth]];
 }
 
 //////////////////////////////////////////////////////
@@ -120,7 +108,6 @@
 #pragma mark Image Property
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
-
 - (UIColor *)overlayImageColor
 {
     return nil;

@@ -13,8 +13,5 @@
 - (id)initWithText:(NSString *)text
          imageName:(NSString *)imageName;
 
-- (void)setPressedState;
-- (void)setDefaultState;
-
 
 @end
