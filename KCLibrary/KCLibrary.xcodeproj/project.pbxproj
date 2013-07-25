@@ -105,6 +105,7 @@
 		E75C0396179D07D200DEC71D /* UIColor+KCSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = E75C0395179D07D200DEC71D /* UIColor+KCSwatch.m */; };
 		E75C0397179D093800DEC71D /* UIColor+KCSwatch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E75C0394179D07D200DEC71D /* UIColor+KCSwatch.h */; };
 		E76BA1F3177653AF001EDCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BA1F2177653AF001EDCCA /* Foundation.framework */; };
+		E786B1BC17A0E2AB00CF80CD /* KCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E786B1BB17A0E2AB00CF80CD /* KCTableView.m */; };
 		E7DC2D26179B765A00DF53B0 /* KCScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D25179B765A00DF53B0 /* KCScrollPageView.m */; };
 		E7DC2D2A179B76EC00DF53B0 /* KCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D29179B76EC00DF53B0 /* KCScrollView.m */; };
 		E7DC2D30179B99DF00DF53B0 /* KCTabMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2D2F179B99DF00DF53B0 /* KCTabMenuView.m */; };
@@ -288,6 +289,9 @@
 		E76BA1EF177653AF001EDCCA /* libKCLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKCLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76BA1F2177653AF001EDCCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		E786B1BA17A0E2AB00CF80CD /* KCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTableView.h; sourceTree = "<group>"; };
+		E786B1BB17A0E2AB00CF80CD /* KCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTableView.m; sourceTree = "<group>"; };
+		E786B1BD17A0E76C00CF80CD /* KCTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTableViewDelegate.h; sourceTree = "<group>"; };
 		E7DC2D24179B765A00DF53B0 /* KCScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCScrollPageView.h; sourceTree = "<group>"; };
 		E7DC2D25179B765A00DF53B0 /* KCScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCScrollPageView.m; sourceTree = "<group>"; };
 		E7DC2D27179B769F00DF53B0 /* KCScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCScrollViewDelegate.h; sourceTree = "<group>"; };
@@ -315,29 +319,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E73ED5A9179A4CD80062643B /* Modal */ = {
-			isa = PBXGroup;
-			children = (
-				E73ED5AC179A4D090062643B /* Entity */,
-				E73ED5AB179A4CF60062643B /* Archive */,
-			);
-			path = Modal;
-			sourceTree = "<group>";
-		};
-		E73ED5AB179A4CF60062643B /* Archive */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Archive;
-			sourceTree = "<group>";
-		};
-		E73ED5AC179A4D090062643B /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
 		E73ED5B4179A53070062643B /* Global */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +331,7 @@
 		E73ED649179A54710062643B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E786B1B517A0E20E00CF80CD /* TableView */,
 				E7DC2D2B179B99B500DF53B0 /* MenuView */,
 				E7DC2D22179B764700DF53B0 /* ScrollView */,
 				E73ED64A179A54710062643B /* ActionSheet */,
@@ -759,10 +741,10 @@
 		E76BA1F4177653AF001EDCCA /* KCLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				E786B1BE17A0E9B500CF80CD /* Model */,
 				E73ED683179A5C840062643B /* Utility */,
 				E73ED649179A54710062643B /* View */,
 				E73ED5B4179A53070062643B /* Global */,
-				E73ED5A9179A4CD80062643B /* Modal */,
 				E74B08EF179502B300B82BE7 /* Controller */,
 				E76BA1F5177653AF001EDCCA /* Supporting Files */,
 			);
@@ -775,6 +757,39 @@
 				E76BA1F6177653AF001EDCCA /* KCLibrary-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E786B1B517A0E20E00CF80CD /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E786B1BA17A0E2AB00CF80CD /* KCTableView.h */,
+				E786B1BB17A0E2AB00CF80CD /* KCTableView.m */,
+				E786B1BD17A0E76C00CF80CD /* KCTableViewDelegate.h */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		E786B1BE17A0E9B500CF80CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E786B1BF17A0E9B500CF80CD /* Archive */,
+				E786B1C017A0E9B500CF80CD /* Entity */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E786B1BF17A0E9B500CF80CD /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		E786B1C017A0E9B500CF80CD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		E7DC2D22179B764700DF53B0 /* ScrollView */ = {
@@ -918,6 +933,7 @@
 				E7DC2D36179B9BA900DF53B0 /* KCButton.m in Sources */,
 				E75C034E179C4DEE00DEC71D /* UIColor+KCServices.m in Sources */,
 				E75C0396179D07D200DEC71D /* UIColor+KCSwatch.m in Sources */,
+				E786B1BC17A0E2AB00CF80CD /* KCTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
